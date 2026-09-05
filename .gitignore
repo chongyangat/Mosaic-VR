@@ -1,0 +1,126 @@
+# Unity-generated project data
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Local build and packaging output
+/[Bb]uild/
+/[Bb]uilds/
+/[Bb]undles/
+/.codex-build-temp/
+/TestResults/
+/TestOutput/
+/CodeCoverage/
+
+# HybridCLR generated output and copied hot-update assemblies
+/HybridCLRData/
+/Assets/HybridCLRData/
+/Assets/HybridCLRData.meta
+/Assets/HybridCLRGenerate/
+/Assets/HybridCLRGenerate.meta
+/Assets/AssetRaw/DLL/*
+!/Assets/AssetRaw/DLL/.keep_dir
+
+# YooAsset generated manifests and built-in resource bundles
+/Assets/AATemp/
+/Assets/AATemp.meta
+/Assets/StreamingAssets/package/
+/Assets/StreamingAssets/package.meta
+
+# Generated test output
+/Assets/TestOutput/
+/Assets/TestOutput.meta
+
+# XR Simulation writes local editor preferences here
+/Assets/XR/Temp/
+/Assets/XR/Temp.meta
+
+# Android and Gradle-generated files
+/.gradle/
+/**/.gradle/
+/**/local.properties
+*.apk
+*.aab
+*.apks
+*.obb
+
+# IDE and editor state
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.tmp
+*.cache
+*.bak
+
+# Logs, crash dumps, and profiling captures
+*.log
+*.stackdump
+*.dmp
+sysinfo.txt
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local signing material and secrets
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Public source snapshot: prevent accidental recommit of excluded assets.
+/Assets/Arts/
+/Assets/AssetRaw/
+/Assets/Mirror/
+/Assets/Proxima/
+/Assets/Plugins/
+/Packages/LocalPackages/
+*.fbx
+*.obj
+*.blend
+*.psd
+*.psb
+*.tga
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.hdr
+*.tif
+*.tiff
+*.ttf
+*.otf
+*.wav
+*.mp3
+*.ogg
+*.mp4
+*.mov
+*.avi
+*.dll
+*.so
+*.dylib
+*.exe
+*.zip
+*.7z
+*.rar
+*.docx

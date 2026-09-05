@@ -1,0 +1,30 @@
+{
+    "name": "GameLogic",
+    "rootNamespace": "GameLogic",
+    "references": [
+        "GUID:08c3762f54316454ca6b6fbcb22b40e5",
+        "GUID:a90b2d3377c5e4a4db95cc44fb82045e",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:363c5eb08ff8e6a439b85e37b8c20d96",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:5927f321510e5af429e3b54b5333537b",
+        "GUID:36ae83b5f71780a42bd9d5a3600305d2",
+        "GUID:17a8c79675568a54b968a9c09a815fc2",
+        "GUID:adc632bb60853534591835c64e02c0af",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:72872094b21c16e48b631b2224833d49",
+        "GUID:b191959ddc9d88045b3b5c9ed6d0d62c",
+        "GUID:1dfd6343d4d444a48af591c0aabd16e4",
+        "GUID:92128250c25693744aeb4267f50aabd1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
