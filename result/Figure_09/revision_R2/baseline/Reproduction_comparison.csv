@@ -1,0 +1,12 @@
+﻿source,file,rows_source,rows_reproduced,numeric_columns,maximum_absolute_numeric_difference,equal_within_1e_6
+plot_ready,Participant_level_latency_metrics.csv,80,80,14,0.0000000000,True
+plot_ready,Cleaning_audit.csv,80,80,7,0.0000000000,True
+plot_ready,Table5_link_latency_summary.csv,40,40,6,0.0000000000,True
+plot_ready,Scene_latency_summary.csv,88,88,6,0.0000000000,True
+plot_ready,Paired_scene_difference.csv,160,160,3,0.0000000000,True
+reproduced_output,Participant_level_latency_metrics.csv,80,80,14,0.0000000000,True
+reproduced_output,Cleaning_audit.csv,80,80,7,0.0000000000,True
+reproduced_output,Table5_link_latency_summary.csv,40,40,6,0.0000000000,True
+reproduced_output,Scene_latency_summary.csv,88,88,6,0.0000000000,True
+reproduced_output,Paired_scene_difference.csv,160,160,3,0.0000000000,True
+reproduced_output,Paired_scene_latency_tests.csv,8,8,14,0.0000000000,True

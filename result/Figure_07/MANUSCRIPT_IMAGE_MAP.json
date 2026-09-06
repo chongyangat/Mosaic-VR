@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 7,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image7.png",
+    "caption": "Figure 7. Time-resolved latency profiles for four monitored runtime paths during the Supermarket marker-only baseline configuration. (a) EyeTracking→PC; (b) MoCap→PC; (c) MoCap→VR; (d) PC–VR shared-state RTT. Thin gray lines show each Participant’s time-binned median, while the colored line and shaded band show the across-participant median and interquartile range (). The three high-rate paths use 1-s bins and the PC–VR shared-state RTT uses 5-s bins. Samples within ±250 ms of identified garbage-collection (GC) events are removed only from EyeTracking→PC and MoCap→PC; all other tail observations are retained.",
+    "sha256": "b690581da6125b7106546e3f0ad0a9f6b71b3722996bfa5100215cd02c5fd2ac",
+    "bytes": 780086,
+    "pixels": [
+      4233,
+      3195
+    ]
+  },
+  {
+    "figure": 7,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image7.png",
+    "caption": "Figure 7. Time-resolved latency profiles for four monitored runtime paths during the Supermarket marker-only baseline configuration. (a) EyeTracking→PC; (b) MoCap→PC; (c) MoCap→VR; (d) PC–VR shared-state RTT. Thin gray lines show each Participant’s time-binned median, while the colored line and shaded band show the across-participant median and interquartile range (). The three high-rate paths use 1-s bins and the PC–VR shared-state RTT uses 5-s bins. Samples within ±250 ms of directly logged or heuristically inferred GC-associated events are removed only from EyeTracking→PC and MoCap→PC. Complete-window sensitivity results are reported separately in Table S2. MoCap values are conditional application diagnostics; per-row clock validity is unavailable.",
+    "sha256": "b690581da6125b7106546e3f0ad0a9f6b71b3722996bfa5100215cd02c5fd2ac",
+    "bytes": 780086,
+    "pixels": [
+      4233,
+      3195
+    ]
+  }
+]

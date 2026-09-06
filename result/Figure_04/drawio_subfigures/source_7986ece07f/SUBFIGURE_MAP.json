@@ -1,0 +1,65 @@
+{
+  "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\external_source_assets\\figures\\fig_expriment_setup\\output\\MOSAIC_VR_experiment_setup_and_software.drawio",
+  "source_sha256": "7986ece07f8f2e1b292cdfb77dea74972500ddde505b7610e35022d0bcdf0a35",
+  "page_count": 1,
+  "assets": [
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\drawio_subfigures\\source_7986ece07f\\page_01_Experiment_setup__cell_panel_a_image_006.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\external_source_assets\\figures\\fig_expriment_setup\\output\\MOSAIC_VR_experiment_setup_and_software.drawio",
+      "diagram_name": "Experiment setup",
+      "diagram_id": "mosaic-vr-experiment-setup",
+      "page_index": 1,
+      "cell_id": "panel_a_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "c203ef8f945bd2554c472468edb3207df3612901c96e901e19062da2afa2e8b3",
+      "bytes": 6231956,
+      "geometry": {
+        "x": "40",
+        "y": "70",
+        "width": "924",
+        "height": "520",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          1920,
+          1080
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\drawio_subfigures\\source_7986ece07f\\page_01_Experiment_setup__cell_panel_b_image_010.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\external_source_assets\\figures\\fig_expriment_setup\\output\\MOSAIC_VR_experiment_setup_and_software.drawio",
+      "diagram_name": "Experiment setup",
+      "diagram_id": "mosaic-vr-experiment-setup",
+      "page_index": 1,
+      "cell_id": "panel_b_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "ca12f2d98f02be2fb813a7f6a133276e86782726de5d98cf85228d43c2f854d3",
+      "bytes": 3261555,
+      "geometry": {
+        "x": "1035",
+        "y": "70",
+        "width": "1025",
+        "height": "520",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    }
+  ],
+  "external_references": [],
+  "editable_pages": []
+}

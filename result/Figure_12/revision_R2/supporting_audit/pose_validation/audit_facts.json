@@ -1,0 +1,349 @@
+{
+  "runtime": {
+    "executable": "C:\\Python313\\python.exe",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "bundled_python_failed": "ModuleNotFoundError: matplotlib"
+  },
+  "row_attrition": [
+    {
+      "stream": "Quest",
+      "stage": "raw",
+      "retained_rows": 3048,
+      "removed_from_previous": 0
+    },
+    {
+      "stream": "Quest",
+      "stage": "sync_valid_and_render_time_valid_and_required_fields",
+      "retained_rows": 3023,
+      "removed_from_previous": 25
+    },
+    {
+      "stream": "Quest",
+      "stage": "observation_delay_le60ms",
+      "retained_rows": 3014,
+      "removed_from_previous": 9
+    },
+    {
+      "stream": "Quest",
+      "stage": "prediction_horizon_le70ms",
+      "retained_rows": 2997,
+      "removed_from_previous": 17
+    },
+    {
+      "stream": "Quest",
+      "stage": "offset_uncertainty_le3ms",
+      "retained_rows": 2997,
+      "removed_from_previous": 0
+    },
+    {
+      "stream": "Quest",
+      "stage": "unique_valid_pose_time",
+      "retained_rows": 2997,
+      "removed_from_previous": 0
+    },
+    {
+      "stream": "Quest",
+      "stage": "most_rows_continuous_segment",
+      "retained_rows": 1631,
+      "removed_from_previous": 1366
+    },
+    {
+      "stream": "MoCap",
+      "stage": "raw",
+      "retained_rows": 6112,
+      "removed_from_previous": 0
+    },
+    {
+      "stream": "MoCap",
+      "stage": "positive_timestamp_and_required_fields",
+      "retained_rows": 4783,
+      "removed_from_previous": 1329
+    },
+    {
+      "stream": "MoCap",
+      "stage": "most_rows_continuous_segment",
+      "retained_rows": 3760,
+      "removed_from_previous": 1023
+    }
+  ],
+  "quality_stats": [
+    {
+      "population": "all_base_valid",
+      "field": "PredictionHorizon(ms)",
+      "n": 3023,
+      "minimum": 23.344,
+      "median": 38.147,
+      "p95": 55.1438,
+      "maximum": 78.279,
+      "negative_count": 0
+    },
+    {
+      "population": "all_base_valid",
+      "field": "PoseReadTime至PC观测延迟(ms)",
+      "n": 3023,
+      "minimum": 19.222,
+      "median": 31.821,
+      "p95": 42.27190000000001,
+      "maximum": 396.14,
+      "negative_count": 0
+    },
+    {
+      "population": "all_base_valid",
+      "field": "偏移不确定度上界(ms)",
+      "n": 3023,
+      "minimum": 1.828,
+      "median": 1.871,
+      "p95": 1.925,
+      "maximum": 2.749,
+      "negative_count": 0
+    },
+    {
+      "population": "all_base_valid",
+      "field": "同步RTT(ms)",
+      "n": 3023,
+      "minimum": 3.174,
+      "median": 3.656,
+      "p95": 3.787,
+      "maximum": 4.037,
+      "negative_count": 0
+    },
+    {
+      "population": "all_base_valid",
+      "field": "同步年龄(ms)",
+      "n": 3023,
+      "minimum": 8.1,
+      "median": 4044.1,
+      "p95": 8543.98,
+      "maximum": 9125.1,
+      "negative_count": 0
+    },
+    {
+      "population": "all_base_valid",
+      "field": "时钟偏移(ms)",
+      "n": 3023,
+      "minimum": 62297.601,
+      "median": 62298.475,
+      "p95": 62299.345,
+      "maximum": 62299.345,
+      "negative_count": 0
+    },
+    {
+      "population": "all_quality",
+      "field": "PredictionHorizon(ms)",
+      "n": 2997,
+      "minimum": 23.344,
+      "median": 38.043,
+      "p95": 54.989999999999995,
+      "maximum": 69.964,
+      "negative_count": 0
+    },
+    {
+      "population": "all_quality",
+      "field": "PoseReadTime至PC观测延迟(ms)",
+      "n": 2997,
+      "minimum": 19.222,
+      "median": 31.779,
+      "p95": 41.98879999999999,
+      "maximum": 58.256,
+      "negative_count": 0
+    },
+    {
+      "population": "all_quality",
+      "field": "偏移不确定度上界(ms)",
+      "n": 2997,
+      "minimum": 1.828,
+      "median": 1.871,
+      "p95": 1.925,
+      "maximum": 2.749,
+      "negative_count": 0
+    },
+    {
+      "population": "all_quality",
+      "field": "同步RTT(ms)",
+      "n": 2997,
+      "minimum": 3.174,
+      "median": 3.656,
+      "p95": 3.787,
+      "maximum": 4.037,
+      "negative_count": 0
+    },
+    {
+      "population": "all_quality",
+      "field": "同步年龄(ms)",
+      "n": 2997,
+      "minimum": 8.1,
+      "median": 4032.0,
+      "p95": 8535.88,
+      "maximum": 9125.1,
+      "negative_count": 0
+    },
+    {
+      "population": "all_quality",
+      "field": "时钟偏移(ms)",
+      "n": 2997,
+      "minimum": 62297.601,
+      "median": 62298.475,
+      "p95": 62299.345,
+      "maximum": 62299.345,
+      "negative_count": 0
+    },
+    {
+      "population": "selected_segment",
+      "field": "PredictionHorizon(ms)",
+      "n": 1631,
+      "minimum": 25.907,
+      "median": 37.98,
+      "p95": 55.0165,
+      "maximum": 69.964,
+      "negative_count": 0
+    },
+    {
+      "population": "selected_segment",
+      "field": "PoseReadTime至PC观测延迟(ms)",
+      "n": 1631,
+      "minimum": 19.222,
+      "median": 31.721,
+      "p95": 41.967,
+      "maximum": 56.924,
+      "negative_count": 0
+    },
+    {
+      "population": "selected_segment",
+      "field": "偏移不确定度上界(ms)",
+      "n": 1631,
+      "minimum": 1.828,
+      "median": 1.888,
+      "p95": 1.888,
+      "maximum": 1.922,
+      "negative_count": 0
+    },
+    {
+      "population": "selected_segment",
+      "field": "同步RTT(ms)",
+      "n": 1631,
+      "minimum": 3.174,
+      "median": 3.656,
+      "p95": 3.737,
+      "maximum": 3.775,
+      "negative_count": 0
+    },
+    {
+      "population": "selected_segment",
+      "field": "同步年龄(ms)",
+      "n": 1631,
+      "minimum": 8.1,
+      "median": 4739.5,
+      "p95": 8642.25,
+      "maximum": 9111.6,
+      "negative_count": 0
+    },
+    {
+      "population": "selected_segment",
+      "field": "时钟偏移(ms)",
+      "n": 1631,
+      "minimum": 62298.289,
+      "median": 62298.931,
+      "p95": 62299.2,
+      "maximum": 62299.345,
+      "negative_count": 0
+    }
+  ],
+  "quality_fail_counts_independent": {
+    "observation_delay": 9,
+    "prediction_horizon": 17,
+    "offset_uncertainty": 0,
+    "any": 26,
+    "sync_boolean_vs_ready_state_mismatch": 0
+  },
+  "raw_checks": {
+    "mocap_zero_timestamp": 1329,
+    "mocap_valid_nonincreasing_timestamp_count": 0,
+    "quest_valid_zero_norm_quaternions": 0,
+    "quest_quality_duplicate_time_count": 0,
+    "quest_all_sample_phase_counts": {
+      "Update": 3048
+    },
+    "quest_selected_sample_phase_counts": {
+      "Update": 1631
+    },
+    "raw_pose_valid_count": 0,
+    "selected_unique_sequence": 1631,
+    "selected_unique_unity_frame": 1631,
+    "base_span_seconds": 68.41277807617188,
+    "quality_span_seconds": 68.41277807617188,
+    "mocap_selected_effective_rate_hz": 90.0014365752047,
+    "quest_selected_effective_rate_hz": 45.48593912418638
+  },
+  "time_arithmetic_max_abs_error_ms": {
+    "predicted_unix_proxy": 0.009765625,
+    "read_time_mapping": 0.010009765625,
+    "observation_delay": 0.010039062499998863
+  },
+  "numeric_comparison": {
+    "fields_compared": 252,
+    "maximum_abs_difference": 0.0,
+    "fields_differing_gt_1e_8": 0
+  },
+  "fitted_tracker_to_eye_translation_m": [
+    -0.013208877653903212,
+    -0.030521069586583703,
+    -0.009725952410414018
+  ],
+  "fitted_leverarm_mm": 34.64973719776972,
+  "timing_sensitivity": {
+    "original_tracker_origin": {
+      "best_lag_combined_ms": -6.980221468219099,
+      "best_lag_position_ms": -9.602404159417285,
+      "best_lag_rotation_ms": -5.298649730261416
+    },
+    "posthoc_calibrated_eye_origin": {
+      "best_lag_combined_ms": -6.831061946394309,
+      "best_lag_position_ms": -10.360821763447158,
+      "best_lag_rotation_ms": -5.2986497302414195
+    }
+  },
+  "source_provenance": {
+    "specified_commit": {
+      "returncode": 0,
+      "stdout": "159447c26485714716aa38c5353bf4c158d770aa\n2026-08-25T22:01:55+08:00\nbuild(quest): refresh bundles for standard APK",
+      "stderr": ""
+    },
+    "HEAD": {
+      "returncode": 0,
+      "stdout": "38c67491e389faa7256d386a39b11a8788f2847d",
+      "stderr": ""
+    },
+    "Assets/GameScripts/Runtime/Recording/QuestPoseRecorder.cs": {
+      "latest_file_commit": {
+        "returncode": 0,
+        "stdout": "71ff03c11f1669a0b15fa42fa47c0109770a82fb\n2026-08-29T16:01:11+08:00\nfeat(recording): capture raw and predicted Quest HMD poses",
+        "stderr": ""
+      },
+      "working_tree_diff": {
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "exists_in_specified_commit": false,
+      "current_sha256": "664ac0231fbf935ce1cfe2e4eaab10cc6b61afb27bf49901fda7e63478c981b9"
+    },
+    "Assets/GameScripts/Runtime/Characters/Player/VirtualPlayerControllor.cs": {
+      "latest_file_commit": {
+        "returncode": 0,
+        "stdout": "71ff03c11f1669a0b15fa42fa47c0109770a82fb\n2026-08-29T16:01:11+08:00\nfeat(recording): capture raw and predicted Quest HMD poses",
+        "stderr": ""
+      },
+      "working_tree_diff": {
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "exists_in_specified_commit": true,
+      "current_sha256": "437035125fc121256fb1da3e53a4b8bbe320fbd46a54ef01c436bca9062842e0"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿stream,stage,retained_rows,removed_from_previous
+Quest,raw,3048,0
+Quest,sync_valid_and_render_time_valid_and_required_fields,3023,25
+Quest,observation_delay_le60ms,3014,9
+Quest,prediction_horizon_le70ms,2997,17
+Quest,offset_uncertainty_le3ms,2997,0
+Quest,unique_valid_pose_time,2997,0
+Quest,most_rows_continuous_segment,1631,1366
+MoCap,raw,6112,0
+MoCap,positive_timestamp_and_required_fields,4783,1329
+MoCap,most_rows_continuous_segment,3760,1023

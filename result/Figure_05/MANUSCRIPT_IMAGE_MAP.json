@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 5,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image5.png",
+    "caption": "Figure 5. Participant–Experimenter workflow in MOSAIC-VR. (a) Participant-side safety prompt, first-person task execution, and completion feedback. (b) Experimenter-side acquisition-mode selection, Participant profile creation, scene selection, trial monitoring, and completion summary. The central column summarizes the sequence of connection and readiness, server-authoritative scene transition, task-state replication, gaze transmission, MoCap-based body presentation, and trial shutdown. The figure summarizes workflow steps and information flow between the two role-facing endpoints and shared functional components.",
+    "sha256": "6d451b47c6879aca446ee2c4f741c1d782e76c3fc8a5ba879b6193d294287b6a",
+    "bytes": 1642529,
+    "pixels": [
+      1490,
+      2037
+    ]
+  },
+  {
+    "figure": 5,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image5_R2.png",
+    "caption": "Figure 5. Participant–Experimenter workflow. (a) Participant safety prompt, task execution, and completion feedback. (b) Experimenter acquisition settings, Participant profile, scene selection, monitoring, and completion summary. The central column links readiness, scene transition, state replication, sensing, and shutdown. Labels denote coordinated operations rather than verified atomic readiness or cross-recorder completeness.",
+    "sha256": "03c9a56514c367deaef7f20fa63e59b2e4180fce5f471fa0e133d40723064689",
+    "bytes": 7233318,
+    "pixels": [
+      4062,
+      5556
+    ]
+  }
+]

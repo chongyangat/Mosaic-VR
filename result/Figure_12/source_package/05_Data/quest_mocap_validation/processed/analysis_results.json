@@ -1,0 +1,411 @@
+{
+  "generated_at": "2026-09-04T16:33:23.295459+08:00",
+  "source_files": {
+    "mocap": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\05_Data\\quest_mocap_validation\\raw\\update_timestamp1-Tracker0.csv",
+    "quest": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\05_Data\\quest_mocap_validation\\raw\\QuestPose_20260829_173101.csv"
+  },
+  "definitions": {
+    "lag": "compare MoCap(t) with Quest(t + lag_ms)",
+    "clock_diff": "Quest(VR) - PC",
+    "quest_pose_time": "PredictedDisplayTime proxy QuestUnix - per-row ClockDiff",
+    "position_error": "Euclidean distance after frozen AX=YB calibration",
+    "rotation_error": "SO(3) geodesic angle after frozen AX=YB calibration"
+  },
+  "data_quality": {
+    "mocap": {
+      "rows_total": 6112,
+      "rows_valid": 4783,
+      "nominal_rate_hz": 90.0,
+      "median_dt_ms": 11.0,
+      "gap_count_gt_50ms": 2,
+      "continuous_segments": [
+        {
+          "rows": 159,
+          "start_ms": 1787995862921.0,
+          "end_ms": 1787995864676.0,
+          "duration_s": 1.755
+        },
+        {
+          "rows": 864,
+          "start_ms": 1787995868732.0,
+          "end_ms": 1787995878320.0,
+          "duration_s": 9.588
+        },
+        {
+          "rows": 3760,
+          "start_ms": 1787995879831.0,
+          "end_ms": 1787995921597.0,
+          "duration_s": 41.766
+        }
+      ],
+      "selected_segment_rows": 3760,
+      "selected_segment_start_ms": 1787995879831.0,
+      "selected_segment_end_ms": 1787995921597.0,
+      "selected_segment_duration_s": 41.766,
+      "coordinate_conversion": "p=diag(-1,1,1)*p_mm/1000; R=diag(-1,1,1)*R_native*diag(-1,1,1)"
+    },
+    "quest": {
+      "rows_total": 3048,
+      "rows_sync_ready_render_valid": 3023,
+      "rows_quality_filtered": 2997,
+      "rows_quality_unique_time": 2997,
+      "selected_segment_rows": 1631,
+      "selected_segment_start_ms": 1787995885645.065,
+      "selected_segment_end_ms": 1787995921480.315,
+      "selected_segment_duration_s": 35.83525,
+      "quality_filter": "Ready and RenderPoseTime valid; observation delay <=60 ms; prediction horizon <=70 ms; offset uncertainty <=3 ms",
+      "quality_segments": [
+        {
+          "rows": 208,
+          "start_ms": 1787995861824.697,
+          "end_ms": 1787995866001.519,
+          "duration_s": 4.176822021484375
+        },
+        {
+          "rows": 149,
+          "start_ms": 1787995866029.369,
+          "end_ms": 1787995869189.729,
+          "duration_s": 3.160360107421875
+        },
+        {
+          "rows": 729,
+          "start_ms": 1787995869328.949,
+          "end_ms": 1787995885255.2349,
+          "duration_s": 15.926285888671876
+        },
+        {
+          "rows": 1631,
+          "start_ms": 1787995885645.065,
+          "end_ms": 1787995921480.315,
+          "duration_s": 35.83525
+        },
+        {
+          "rows": 166,
+          "start_ms": 1787995921884.065,
+          "end_ms": 1787995925253.235,
+          "duration_s": 3.369170166015625
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995925364.645,
+          "end_ms": 1787995925392.495,
+          "duration_s": 0.02785009765625
+        },
+        {
+          "rows": 6,
+          "start_ms": 1787995925503.875,
+          "end_ms": 1787995925684.855,
+          "duration_s": 0.18097998046875
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995925796.235,
+          "end_ms": 1787995925824.085,
+          "duration_s": 0.027849853515625
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995925949.385,
+          "end_ms": 1787995926032.915,
+          "duration_s": 0.083530029296875
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995926158.215,
+          "end_ms": 1787995926186.065,
+          "duration_s": 0.027849853515625
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995926311.365,
+          "end_ms": 1787995926353.135,
+          "duration_s": 0.04177001953125
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995926478.435,
+          "end_ms": 1787995926520.205,
+          "duration_s": 0.04177001953125
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995926645.5051,
+          "end_ms": 1787995926687.2751,
+          "duration_s": 0.04177001953125
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995926812.575,
+          "end_ms": 1787995926854.345,
+          "duration_s": 0.04177001953125
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995926979.645,
+          "end_ms": 1787995927021.405,
+          "duration_s": 0.041760009765625
+        },
+        {
+          "rows": 3,
+          "start_ms": 1787995927146.705,
+          "end_ms": 1787995927188.475,
+          "duration_s": 0.04177001953125
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995927327.695,
+          "end_ms": 1787995927355.545,
+          "duration_s": 0.027849853515625
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995927480.845,
+          "end_ms": 1787995927494.7651,
+          "duration_s": 0.013920166015625
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995927647.915,
+          "end_ms": 1787995927661.835,
+          "duration_s": 0.013919921875
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995927801.065,
+          "end_ms": 1787995927828.905,
+          "duration_s": 0.027840087890625
+        },
+        {
+          "rows": 1,
+          "start_ms": 1787995927968.135,
+          "end_ms": 1787995927968.135,
+          "duration_s": 0.0
+        },
+        {
+          "rows": 1,
+          "start_ms": 1787995928135.195,
+          "end_ms": 1787995928135.195,
+          "duration_s": 0.0
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995928246.575,
+          "end_ms": 1787995928260.5051,
+          "duration_s": 0.01393017578125
+        },
+        {
+          "rows": 2,
+          "start_ms": 1787995928371.875,
+          "end_ms": 1787995928399.715,
+          "duration_s": 0.027840087890625
+        },
+        {
+          "rows": 66,
+          "start_ms": 1787995928525.0151,
+          "end_ms": 1787995930237.475,
+          "duration_s": 1.7124599609375
+        }
+      ],
+      "raw_pose_valid_rows": 0,
+      "sync_state_counts": {
+        "Ready": 3023,
+        "Collecting": 24,
+        "Unsynced": 1
+      },
+      "median_dt_ms": 27.820068359375,
+      "max_dt_ms": 55.699951171875,
+      "time_semantics": "PredictedDisplayTime proxy in Quest Unix minus per-row ClockDiff(VR-PC)",
+      "clock_diff_median_ms": 62298.475,
+      "clock_diff_min_ms": 62297.601,
+      "clock_diff_max_ms": 62299.345,
+      "prediction_horizon_median_ms": 38.147,
+      "prediction_horizon_p95_ms": 55.1438,
+      "observation_delay_median_ms": 31.821,
+      "observation_delay_p95_ms": 42.27190000000001,
+      "sync_rtt_median_ms": 3.656,
+      "offset_uncertainty_median_ms": 1.871,
+      "jumps": [
+        {
+          "row": 209,
+          "time_ms": 1787995866029.369,
+          "position_jump_m": 1.2256016862341532,
+          "rotation_jump_deg": 179.24713978093422
+        }
+      ]
+    },
+    "analysis_overlap_start_ms": 1787995885895.065,
+    "analysis_overlap_end_ms": 1787995921230.315,
+    "analysis_overlap_duration_s": 35.33525,
+    "calibration_fraction": 0.6,
+    "calibration_end_ms": 1787995907096.2148
+  },
+  "time_alignment": {
+    "best_lag_ms": -6.980221468219099,
+    "combined_peak_correlation": 0.9875005011490802,
+    "lag_point_estimator": "median of nine overlapping 12-s window estimates",
+    "representative_window_lag_ms": -6.980221468219099,
+    "position_best_lag_ms": -9.832602089025405,
+    "position_peak_correlation": 0.9837820104377365,
+    "rotation_best_lag_ms": -5.298649730261416,
+    "rotation_peak_correlation": 0.9914518433925249,
+    "position_rotation_lag_difference_ms": -4.533952358763989,
+    "selected_window_start_ms": 1787995890395.065,
+    "selected_window_end_ms": 1787995902395.065,
+    "selected_window_start_local": "2026-08-29 17:31:30.395",
+    "selected_window_end_local": "2026-08-29 17:31:42.395",
+    "jackknife_estimates_ms": [
+      -7.363285944139001,
+      -7.38102237329977,
+      -7.000598411062015,
+      -6.656977517240858,
+      -6.937555751660782,
+      -6.572282795340634
+    ],
+    "jackknife_mean_ms": -6.985287132123844,
+    "jackknife_std_ms": 0.34069399418346813,
+    "jackknife_conventional_se_ms": 0.6954387034835308,
+    "jackknife_min_ms": -7.38102237329977,
+    "jackknife_max_ms": -6.572282795340634,
+    "sliding_window_count": 9,
+    "sliding_window_lag_mean_ms": -7.205583422325812,
+    "sliding_window_lag_std_ms": 1.3532536351404456,
+    "sliding_window_lag_min_ms": -8.832261277635116,
+    "sliding_window_lag_max_ms": -5.227774066952172,
+    "search_range_ms": [
+      -80.0,
+      80.0
+    ],
+    "search_step_ms": 0.1,
+    "window_seconds": 12.0,
+    "signal": "equal-weight standardized translation-speed magnitude and SO(3) angular-speed magnitude"
+  },
+  "spatial_registration": {
+    "equation": "MocapUnityFromTracker(t) * TrackerFromCenterEye = MocapUnityFromQuest * QuestFromCenterEye(t+lag)",
+    "TrackerFromCenterEye": [
+      [
+        -0.010617652779442266,
+        0.9987990752640448,
+        -0.04782962158688364,
+        -0.013208877653903212
+      ],
+      [
+        -0.20357459943790523,
+        0.04467143602676016,
+        0.9780397973840347,
+        -0.030521069586583703
+      ],
+      [
+        0.9790018630795101,
+        0.02012138302891614,
+        0.20285581586893686,
+        -0.009725952410414018
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "MocapUnityFromQuest": [
+      [
+        -0.9982179329433387,
+        -0.005853137173446317,
+        0.059386018013984535,
+        -0.2233508194105917
+      ],
+      [
+        -0.005307873205691303,
+        0.9999423377983387,
+        0.009335285770957345,
+        0.04100823074642301
+      ],
+      [
+        -0.05943723439360868,
+        0.009003436211911273,
+        -0.9981914412095596,
+        -0.7290998924455802
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "`ftol` termination condition is satisfied.",
+    "optimizer_cost": 805.6270401397468,
+    "calibration_start_local": "2026-08-29 17:31:26.145",
+    "calibration_end_local": "2026-08-29 17:31:46.845",
+    "validation_start_local": "2026-08-29 17:31:47.346",
+    "validation_end_local": "2026-08-29 17:32:00.979"
+  },
+  "spatial_accuracy": {
+    "calibration": {
+      "count": 622,
+      "position_mean_mm": 4.97177783071338,
+      "position_median_mm": 4.499909999637282,
+      "position_rmse_mm": 5.958828689876125,
+      "position_p95_mm": 12.91282374211895,
+      "position_max_mm": 18.528745584943778,
+      "rotation_mean_deg": 0.6592391115637768,
+      "rotation_median_deg": 0.5365191840469213,
+      "rotation_rmse_deg": 0.7927339141585571,
+      "rotation_p95_deg": 1.592481176351157,
+      "rotation_max_deg": 2.4366683424229434
+    },
+    "held_out_validation": {
+      "count": 410,
+      "position_mean_mm": 6.238659866733423,
+      "position_median_mm": 6.1862797580855835,
+      "position_rmse_mm": 6.6196654631040355,
+      "position_p95_mm": 9.998044342027965,
+      "position_max_mm": 11.267259158998337,
+      "rotation_mean_deg": 0.8391587251746943,
+      "rotation_median_deg": 0.6395054297014042,
+      "rotation_rmse_deg": 1.157080923832939,
+      "rotation_p95_deg": 2.4880219763072557,
+      "rotation_max_deg": 4.695172559814931
+    },
+    "held_out_block_bootstrap_95_interval": {
+      "position_rmse_mm": {
+        "lower_95": 5.703991831630697,
+        "upper_95": 7.500114724028178
+      },
+      "position_p95_mm": {
+        "lower_95": 8.212367792647896,
+        "upper_95": 10.466105394314706
+      },
+      "rotation_rmse_deg": {
+        "lower_95": 0.6997307420659684,
+        "upper_95": 1.6553937173106559
+      },
+      "rotation_p95_deg": {
+        "lower_95": 1.2358898811685823,
+        "upper_95": 4.387062074724511
+      }
+    },
+    "held_out_signed_axis_error_mm": {
+      "x": {
+        "mean": -2.260541401381113,
+        "std": 4.886280740301573
+      },
+      "y": {
+        "mean": -1.8642091850501799,
+        "std": 1.0050883471254362
+      },
+      "z": {
+        "mean": -2.603418745580313,
+        "std": 1.9080075937587198
+      }
+    }
+  },
+  "limitations": [
+    "Quest RawPose is unavailable in this CSV; results apply to the stored RenderPredicted CenterEye pose.",
+    "MoCap is treated as the reference chain, so metrics are inter-system relative errors rather than external absolute metrology.",
+    "The time window is selected for high and mutually consistent cross-correlation inside the calibration block; spatial accuracy is therefore reported primarily on the disjoint held-out block.",
+    "The sub-millisecond numerical peak interpolation does not imply sub-millisecond hardware accuracy; use jackknife spread and sampling/clock uncertainties when interpreting the lag.",
+    "The nine timing windows overlap strongly; their standard deviation describes within-recording stability rather than an independent-repeat confidence interval or hardware accuracy."
+  ]
+}

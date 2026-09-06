@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 4,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image4.png",
+    "caption": "Figure 4. Experimental setup and Experimenter-side software interface. (a) Participant wearing the HMD and optical MoCap markers. (b) Experimenter-side interface showing the MoCap-based body representation and task state. The figure illustrates the correspondence between the physical acquisition setup and software monitoring interface.",
+    "sha256": "05f2c7076046bd21e95176dc1e91d9ac1ed6efc010dd15f2b02546a027488d5c",
+    "bytes": 9520015,
+    "pixels": [
+      6812,
+      2234
+    ]
+  },
+  {
+    "figure": 4,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image4.png",
+    "caption": "Figure 4. Physical setup and Experimenter interface. (a) Participant wearing the HMD and optical markers. (b) MoCap-based body representation and task state in the Experimenter interface.",
+    "sha256": "77d707478564fe556eaea07f0d8411e622973ef986e802939960dc604c229b64",
+    "bytes": 4043621,
+    "pixels": [
+      4062,
+      1332
+    ]
+  }
+]

@@ -1,0 +1,365 @@
+﻿participant,scene,folder,event_id,gc_event_time,elapsed_s,gc_source,nearest_heuristic_delta_ms,heuristic_match_within_250ms
+P1,supermarket,P01/supermarket,1,2026-08-20 10:31:17.016,4.006000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,2,2026-08-20 10:31:26.810,13.800500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,3,2026-08-20 10:31:37.179,24.169500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,4,2026-08-20 10:31:47.832,34.822999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,5,2026-08-20 10:31:58.478,45.468750,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,6,2026-08-20 10:32:09.048,56.038999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,7,2026-08-20 10:32:19.496,66.486000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,8,2026-08-20 10:32:30.033,77.023499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,9,2026-08-20 10:32:40.439,87.429500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,10,2026-08-20 10:32:50.910,97.900000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,11,2026-08-20 10:33:01.390,108.380500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,12,2026-08-20 10:33:11.749,118.739499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,13,2026-08-20 10:33:22.249,129.239999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,14,2026-08-20 10:33:32.630,139.620000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,15,2026-08-20 10:33:43.137,150.127999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,16,2026-08-20 10:33:53.720,160.710999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,17,2026-08-20 10:34:04.027,171.017500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,18,2026-08-20 10:34:14.391,181.381500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,19,2026-08-20 10:34:24.793,191.783499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,20,2026-08-20 10:34:35.276,202.266999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,21,2026-08-20 10:34:45.796,212.786499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,22,2026-08-20 10:34:56.278,223.268500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,23,2026-08-20 10:35:06.710,233.700000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,24,2026-08-20 10:35:17.185,244.175999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,25,2026-08-20 10:35:27.689,254.679499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,26,2026-08-20 10:35:38.129,265.119999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,27,2026-08-20 10:35:48.590,275.580000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,28,2026-08-20 10:35:59.107,286.097000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,supermarket,P01/supermarket,29,2026-08-20 10:36:09.540,296.530000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,1,2026-08-20 10:39:15.414,2.936000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,2,2026-08-20 10:39:25.272,12.794000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,3,2026-08-20 10:39:36.053,23.575499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,4,2026-08-20 10:39:46.580,34.102999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,5,2026-08-20 10:39:56.964,44.486499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,6,2026-08-20 10:40:07.425,54.947999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,7,2026-08-20 10:40:17.923,65.445000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,8,2026-08-20 10:40:28.505,76.027999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,9,2026-08-20 10:40:38.888,86.410499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,10,2026-08-20 10:40:49.216,96.738999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,11,2026-08-20 10:40:59.416,106.938999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,12,2026-08-20 10:41:09.592,117.114000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,13,2026-08-20 10:41:19.896,127.418499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,14,2026-08-20 10:41:30.450,137.972500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,15,2026-08-20 10:41:41.168,148.690999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,16,2026-08-20 10:41:51.856,159.378499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,17,2026-08-20 10:42:02.510,170.032500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,18,2026-08-20 10:42:13.328,180.850999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,19,2026-08-20 10:42:24.003,191.525500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,20,2026-08-20 10:42:34.684,202.206999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,21,2026-08-20 10:42:45.195,212.717000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,22,2026-08-20 10:42:55.793,223.315999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,23,2026-08-20 10:43:06.362,233.884500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,24,2026-08-20 10:43:17.024,244.546000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,25,2026-08-20 10:43:27.589,255.111499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,26,2026-08-20 10:43:38.101,265.623499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,27,2026-08-20 10:43:48.320,275.842000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,28,2026-08-20 10:43:58.816,286.338000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P1,street,P01/street,29,2026-08-20 10:44:09.761,297.283999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,1,2026-08-20 11:02:04.878,4.618500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,2,2026-08-20 11:02:18.680,18.420499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,3,2026-08-20 11:02:32.098,31.838500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,4,2026-08-20 11:02:46.160,45.900000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,5,2026-08-20 11:03:00.220,59.960000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,6,2026-08-20 11:03:14.232,73.972999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,7,2026-08-20 11:03:28.212,87.952999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,8,2026-08-20 11:03:42.132,101.872499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,9,2026-08-20 11:03:56.177,115.917999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,10,2026-08-20 11:04:10.184,129.924000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,11,2026-08-20 11:04:24.867,144.607000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,12,2026-08-20 11:04:39.678,159.418500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,13,2026-08-20 11:04:54.171,173.911000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,14,2026-08-20 11:05:07.976,187.716499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,15,2026-08-20 11:05:22.102,201.842000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,16,2026-08-20 11:05:36.418,216.158500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,17,2026-08-20 11:05:50.697,230.437499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,18,2026-08-20 11:06:05.108,244.848999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,19,2026-08-20 11:06:19.332,259.072999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,20,2026-08-20 11:06:33.460,273.200999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,supermarket,P02/supermarket,21,2026-08-20 11:06:47.740,287.480499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,1,2026-08-20 10:54:53.048,10.324499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,2,2026-08-20 10:55:04.906,22.182500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,3,2026-08-20 10:55:16.767,34.043000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,4,2026-08-20 10:55:28.712,45.988999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,5,2026-08-20 10:55:40.508,57.784499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,6,2026-08-20 10:55:52.344,69.620499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,7,2026-08-20 10:56:04.302,81.578500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,8,2026-08-20 10:56:16.168,93.444000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,9,2026-08-20 10:56:27.923,105.199500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,10,2026-08-20 10:56:39.675,116.951500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,11,2026-08-20 10:56:51.513,128.789999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,12,2026-08-20 10:57:03.371,140.647500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,13,2026-08-20 10:57:15.196,152.472000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,14,2026-08-20 10:57:26.976,164.252000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,15,2026-08-20 10:57:38.772,176.048999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,16,2026-08-20 10:57:50.608,187.884000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,17,2026-08-20 10:58:02.446,199.722500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,18,2026-08-20 10:58:14.268,211.544999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,19,2026-08-20 10:58:26.087,223.363500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,20,2026-08-20 10:58:37.884,235.160000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,21,2026-08-20 10:58:49.748,247.024000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,22,2026-08-20 10:59:01.615,258.891500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,23,2026-08-20 10:59:13.456,270.732499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,24,2026-08-20 10:59:25.295,282.571500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P2,street,P02/street,25,2026-08-20 10:59:37.164,294.440999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,1,2026-08-20 12:46:03.121,5.951499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,2,2026-08-20 12:46:17.672,20.502999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,3,2026-08-20 12:46:30.881,33.711999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,4,2026-08-20 12:46:44.067,46.897500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,5,2026-08-20 12:46:57.503,60.333000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,6,2026-08-20 12:47:10.759,73.589500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,7,2026-08-20 12:47:24.020,86.850000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,8,2026-08-20 12:47:37.310,100.140500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,9,2026-08-20 12:47:50.568,113.398499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,10,2026-08-20 12:48:04.100,126.930499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,11,2026-08-20 12:48:17.634,140.464500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,12,2026-08-20 12:48:30.870,153.700000,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,13,2026-08-20 12:48:44.048,166.878999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,14,2026-08-20 12:48:57.244,180.074499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,15,2026-08-20 12:49:10.530,193.360500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,16,2026-08-20 12:49:23.881,206.711999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,17,2026-08-20 12:49:37.232,220.062499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,18,2026-08-20 12:49:50.778,233.608500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,19,2026-08-20 12:50:03.962,246.792500,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,20,2026-08-20 12:50:17.148,259.978999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,21,2026-08-20 12:50:30.445,273.275499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,22,2026-08-20 12:50:43.600,286.430499,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,supermarket,P03/supermarket,23,2026-08-20 12:50:56.832,299.662999,Validated cross-link heuristic; session log unavailable,0.000000,True
+P3,street,P03/street,1,2026-08-20 12:53:54.168,14.258000,GCMonitor log; cross-link heuristic corroboration,5.499000,True
+P3,street,P03/street,2,2026-08-20 12:54:09.465,29.555000,GCMonitor log; cross-link heuristic corroboration,5.999000,True
+P3,street,P03/street,3,2026-08-20 12:54:24.746,44.836000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P3,street,P03/street,4,2026-08-20 12:54:39.932,60.022000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P3,street,P03/street,5,2026-08-20 12:54:55.196,75.286000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P3,street,P03/street,6,2026-08-20 12:55:10.623,90.713000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P3,street,P03/street,7,2026-08-20 12:55:26.078,106.168000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P3,street,P03/street,8,2026-08-20 12:55:41.442,121.532000,GCMonitor log; cross-link heuristic corroboration,1.000000,True
+P3,street,P03/street,9,2026-08-20 12:55:56.777,136.867000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P3,street,P03/street,10,2026-08-20 12:56:12.132,152.222000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P3,street,P03/street,11,2026-08-20 12:56:27.402,167.492000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P3,street,P03/street,12,2026-08-20 12:56:42.708,182.798000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P3,street,P03/street,13,2026-08-20 12:56:58.025,198.115000,GCMonitor log; cross-link heuristic corroboration,10.499000,True
+P3,street,P03/street,14,2026-08-20 12:57:13.501,213.591000,GCMonitor log; cross-link heuristic corroboration,4.500000,True
+P3,street,P03/street,15,2026-08-20 12:57:29.097,229.187000,GCMonitor log; cross-link heuristic corroboration,9.999000,True
+P3,street,P03/street,16,2026-08-20 12:57:44.599,244.689000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P3,street,P03/street,17,2026-08-20 12:58:00.147,260.237000,GCMonitor log; cross-link heuristic corroboration,4.499000,True
+P3,street,P03/street,18,2026-08-20 12:58:15.622,275.712000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P3,street,P03/street,19,2026-08-20 12:58:31.112,291.202000,GCMonitor log; cross-link heuristic corroboration,4.000000,True
+P4,supermarket,P04/supermarket,1,2026-08-20 14:27:31.130,7.814000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P4,supermarket,P04/supermarket,2,2026-08-20 14:27:43.033,19.717000,GCMonitor log; cross-link heuristic corroboration,7.500000,True
+P4,supermarket,P04/supermarket,3,2026-08-20 14:27:55.084,31.768000,GCMonitor log; cross-link heuristic corroboration,11.500000,True
+P4,supermarket,P04/supermarket,4,2026-08-20 14:28:06.830,43.514000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P4,supermarket,P04/supermarket,5,2026-08-20 14:28:18.692,55.376000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P4,supermarket,P04/supermarket,6,2026-08-20 14:28:30.235,66.919000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P4,supermarket,P04/supermarket,7,2026-08-20 14:28:41.786,78.470000,GCMonitor log; cross-link heuristic corroboration,10.000000,True
+P4,supermarket,P04/supermarket,8,2026-08-20 14:28:53.401,90.085000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P4,supermarket,P04/supermarket,9,2026-08-20 14:29:05.053,101.737000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P4,supermarket,P04/supermarket,10,2026-08-20 14:29:16.544,113.228000,GCMonitor log; cross-link heuristic corroboration,5.499000,True
+P4,supermarket,P04/supermarket,11,2026-08-20 14:29:28.217,124.901000,GCMonitor log; cross-link heuristic corroboration,11.500000,True
+P4,supermarket,P04/supermarket,12,2026-08-20 14:29:39.859,136.543000,GCMonitor log; cross-link heuristic corroboration,11.000000,True
+P4,supermarket,P04/supermarket,13,2026-08-20 14:29:51.561,148.245000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P4,supermarket,P04/supermarket,14,2026-08-20 14:30:03.060,159.744000,GCMonitor log; cross-link heuristic corroboration,1.500000,True
+P4,supermarket,P04/supermarket,15,2026-08-20 14:30:14.692,171.376000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P4,supermarket,P04/supermarket,16,2026-08-20 14:30:26.371,183.055000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P4,supermarket,P04/supermarket,17,2026-08-20 14:30:38.115,194.799000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P4,supermarket,P04/supermarket,18,2026-08-20 14:30:49.730,206.414000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P4,supermarket,P04/supermarket,19,2026-08-20 14:31:01.510,218.194000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P4,supermarket,P04/supermarket,20,2026-08-20 14:31:13.192,229.876000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P4,supermarket,P04/supermarket,21,2026-08-20 14:31:24.879,241.563000,GCMonitor log; cross-link heuristic corroboration,13.500000,True
+P4,supermarket,P04/supermarket,22,2026-08-20 14:31:36.529,253.213000,GCMonitor log; cross-link heuristic corroboration,1.499000,True
+P4,supermarket,P04/supermarket,23,2026-08-20 14:31:48.177,264.861000,GCMonitor log; cross-link heuristic corroboration,9.000000,True
+P4,supermarket,P04/supermarket,24,2026-08-20 14:31:59.820,276.504000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P4,supermarket,P04/supermarket,25,2026-08-20 14:32:11.602,288.286000,GCMonitor log; cross-link heuristic corroboration,9.500000,True
+P4,street,P04/street,1,2026-08-20 14:37:05.121,14.195000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P4,street,P04/street,2,2026-08-20 14:37:24.489,33.563000,GCMonitor log; cross-link heuristic corroboration,11.500000,True
+P4,street,P04/street,3,2026-08-20 14:37:44.010,53.084000,GCMonitor log; cross-link heuristic corroboration,3.499000,True
+P4,street,P04/street,4,2026-08-20 14:38:03.546,72.620000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P4,street,P04/street,5,2026-08-20 14:38:23.247,92.321000,GCMonitor log; cross-link heuristic corroboration,12.499000,True
+P4,street,P04/street,6,2026-08-20 14:38:42.943,112.017000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P4,street,P04/street,7,2026-08-20 14:39:02.421,131.495000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P4,street,P04/street,8,2026-08-20 14:39:22.368,151.442000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P4,street,P04/street,9,2026-08-20 14:39:42.072,171.146000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P4,street,P04/street,10,2026-08-20 14:40:01.693,190.767000,GCMonitor log; cross-link heuristic corroboration,11.500000,True
+P4,street,P04/street,11,2026-08-20 14:40:21.687,210.761000,GCMonitor log; cross-link heuristic corroboration,11.499000,True
+P4,street,P04/street,12,2026-08-20 14:40:41.870,230.944000,GCMonitor log; cross-link heuristic corroboration,158.000000,True
+P4,street,P04/street,13,2026-08-20 14:41:02.314,251.388000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P4,street,P04/street,14,2026-08-20 14:41:21.836,270.910000,GCMonitor log; cross-link heuristic corroboration,0.499000,True
+P4,street,P04/street,15,2026-08-20 14:41:41.494,290.568000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P5,supermarket,P05/supermarket,1,2026-08-20 15:24:37.511,0.290000,GCMonitor log; cross-link heuristic corroboration,21.500000,True
+P5,supermarket,P05/supermarket,2,2026-08-20 15:24:50.113,12.892000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P5,supermarket,P05/supermarket,3,2026-08-20 15:25:01.361,24.140000,GCMonitor log; cross-link heuristic corroboration,7.500000,True
+P5,supermarket,P05/supermarket,4,2026-08-20 15:25:12.696,35.475000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P5,supermarket,P05/supermarket,5,2026-08-20 15:25:24.107,46.886000,GCMonitor log; cross-link heuristic corroboration,0.001000,True
+P5,supermarket,P05/supermarket,6,2026-08-20 15:25:35.471,58.250000,GCMonitor log; cross-link heuristic corroboration,0.001000,True
+P5,supermarket,P05/supermarket,7,2026-08-20 15:25:46.797,69.576000,GCMonitor log; cross-link heuristic corroboration,12.500000,True
+P5,supermarket,P05/supermarket,8,2026-08-20 15:25:58.177,80.956000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P5,supermarket,P05/supermarket,9,2026-08-20 15:26:09.626,92.405000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P5,supermarket,P05/supermarket,10,2026-08-20 15:26:21.056,103.835000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P5,supermarket,P05/supermarket,11,2026-08-20 15:26:32.392,115.171000,GCMonitor log; cross-link heuristic corroboration,11.500000,True
+P5,supermarket,P05/supermarket,12,2026-08-20 15:26:43.823,126.602000,GCMonitor log; cross-link heuristic corroboration,7.249000,True
+P5,supermarket,P05/supermarket,13,2026-08-20 15:26:55.202,137.981000,GCMonitor log; cross-link heuristic corroboration,3.999000,True
+P5,supermarket,P05/supermarket,14,2026-08-20 15:27:06.537,149.316000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P5,supermarket,P05/supermarket,15,2026-08-20 15:27:17.910,160.689000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P5,supermarket,P05/supermarket,16,2026-08-20 15:27:29.316,172.095000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P5,supermarket,P05/supermarket,17,2026-08-20 15:27:40.676,183.455000,GCMonitor log; cross-link heuristic corroboration,11.000000,True
+P5,supermarket,P05/supermarket,18,2026-08-20 15:27:52.083,194.862000,GCMonitor log; cross-link heuristic corroboration,11.499000,True
+P5,supermarket,P05/supermarket,19,2026-08-20 15:28:03.442,206.221000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P5,supermarket,P05/supermarket,20,2026-08-20 15:28:14.804,217.583000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P5,supermarket,P05/supermarket,21,2026-08-20 15:28:26.184,228.963000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P5,supermarket,P05/supermarket,22,2026-08-20 15:28:37.538,240.317000,GCMonitor log; cross-link heuristic corroboration,1.500000,True
+P5,supermarket,P05/supermarket,23,2026-08-20 15:28:48.979,251.758000,GCMonitor log; cross-link heuristic corroboration,9.500000,True
+P5,supermarket,P05/supermarket,24,2026-08-20 15:29:00.373,263.152000,GCMonitor log; cross-link heuristic corroboration,11.000000,True
+P5,supermarket,P05/supermarket,25,2026-08-20 15:29:11.695,274.474000,GCMonitor log; cross-link heuristic corroboration,11.000000,True
+P5,supermarket,P05/supermarket,26,2026-08-20 15:29:23.021,285.800000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P5,supermarket,P05/supermarket,27,2026-08-20 15:29:34.424,297.203000,GCMonitor log; cross-link heuristic corroboration,0.000000,True
+P5,street,P05/street,1,2026-08-20 15:33:04.010,3.953000,GCMonitor log; cross-link heuristic corroboration,4.500000,True
+P5,street,P05/street,2,2026-08-20 15:33:17.823,17.766000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P5,street,P05/street,3,2026-08-20 15:33:31.932,31.875000,GCMonitor log; cross-link heuristic corroboration,5.499000,True
+P5,street,P05/street,4,2026-08-20 15:33:45.048,44.991000,GCMonitor log; cross-link heuristic corroboration,4.999000,True
+P5,street,P05/street,5,2026-08-20 15:33:58.246,58.189000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P5,street,P05/street,6,2026-08-20 15:34:11.345,71.288000,GCMonitor log; cross-link heuristic corroboration,4.500000,True
+P5,street,P05/street,7,2026-08-20 15:34:24.566,84.509000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P5,street,P05/street,8,2026-08-20 15:34:37.391,97.334000,GCMonitor log; cross-link heuristic corroboration,3.999000,True
+P5,street,P05/street,9,2026-08-20 15:34:50.173,110.116000,GCMonitor log; cross-link heuristic corroboration,5.499000,True
+P5,street,P05/street,10,2026-08-20 15:35:02.920,122.863000,GCMonitor log; cross-link heuristic corroboration,4.999000,True
+P5,street,P05/street,11,2026-08-20 15:35:15.576,135.519000,GCMonitor log; cross-link heuristic corroboration,4.000000,True
+P5,street,P05/street,12,2026-08-20 15:35:28.646,148.589000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P5,street,P05/street,13,2026-08-20 15:35:41.678,161.621000,GCMonitor log; cross-link heuristic corroboration,3.499000,True
+P5,street,P05/street,14,2026-08-20 15:35:54.701,174.644000,GCMonitor log; cross-link heuristic corroboration,3.500000,True
+P5,street,P05/street,15,2026-08-20 15:36:07.686,187.629000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P5,street,P05/street,16,2026-08-20 15:36:20.606,200.549000,GCMonitor log; cross-link heuristic corroboration,4.000000,True
+P5,street,P05/street,17,2026-08-20 15:36:33.238,213.181000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P5,street,P05/street,18,2026-08-20 15:36:46.200,226.143000,GCMonitor log; cross-link heuristic corroboration,0.499000,True
+P5,street,P05/street,19,2026-08-20 15:36:59.205,239.148000,GCMonitor log; cross-link heuristic corroboration,3.500000,True
+P5,street,P05/street,20,2026-08-20 15:37:12.242,252.185000,GCMonitor log; cross-link heuristic corroboration,3.999000,True
+P5,street,P05/street,21,2026-08-20 15:37:25.240,265.183000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P5,street,P05/street,22,2026-08-20 15:37:38.293,278.236000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P5,street,P05/street,23,2026-08-20 15:37:51.286,291.229000,GCMonitor log; cross-link heuristic corroboration,9.000000,True
+P6,supermarket,P06/supermarket,1,2026-08-20 15:54:26.454,13.038000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P6,supermarket,P06/supermarket,2,2026-08-20 15:54:49.846,36.430000,GCMonitor log; cross-link heuristic corroboration,9.500000,True
+P6,supermarket,P06/supermarket,3,2026-08-20 15:55:13.181,59.765000,GCMonitor log; cross-link heuristic corroboration,10.499000,True
+P6,supermarket,P06/supermarket,4,2026-08-20 15:55:36.750,83.334000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P6,supermarket,P06/supermarket,5,2026-08-20 15:56:00.326,106.910000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P6,supermarket,P06/supermarket,6,2026-08-20 15:56:23.838,130.422000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P6,supermarket,P06/supermarket,7,2026-08-20 15:56:47.445,154.029000,GCMonitor log; cross-link heuristic corroboration,11.000000,True
+P6,supermarket,P06/supermarket,8,2026-08-20 15:57:11.101,177.685000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P6,supermarket,P06/supermarket,9,2026-08-20 15:57:34.650,201.234000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P6,supermarket,P06/supermarket,10,2026-08-20 15:57:58.273,224.857000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P6,supermarket,P06/supermarket,11,2026-08-20 15:58:22.259,248.843000,GCMonitor log; cross-link heuristic corroboration,4.499000,True
+P6,supermarket,P06/supermarket,12,2026-08-20 15:58:46.050,272.634000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P6,supermarket,P06/supermarket,13,2026-08-20 15:59:10.134,296.718000,GCMonitor log; cross-link heuristic corroboration,0.001000,True
+P6,street,P06/street,1,2026-08-20 16:02:21.759,13.076000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P6,street,P06/street,2,2026-08-20 16:02:41.043,32.360000,GCMonitor log; cross-link heuristic corroboration,10.000000,True
+P6,street,P06/street,3,2026-08-20 16:03:00.115,51.432000,GCMonitor log; cross-link heuristic corroboration,10.000000,True
+P6,street,P06/street,4,2026-08-20 16:03:19.459,70.776000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P6,street,P06/street,5,2026-08-20 16:03:38.755,90.072000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P6,street,P06/street,6,2026-08-20 16:03:57.847,109.164000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P6,street,P06/street,7,2026-08-20 16:04:17.065,128.382000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P6,street,P06/street,8,2026-08-20 16:04:36.264,147.581000,GCMonitor log; cross-link heuristic corroboration,10.500000,True
+P6,street,P06/street,9,2026-08-20 16:04:55.412,166.729000,GCMonitor log; cross-link heuristic corroboration,0.000000,True
+P6,street,P06/street,10,2026-08-20 16:05:14.558,185.875000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P6,street,P06/street,11,2026-08-20 16:05:33.780,205.097000,GCMonitor log; cross-link heuristic corroboration,8.999000,True
+P6,street,P06/street,12,2026-08-20 16:05:52.923,224.240000,GCMonitor log; cross-link heuristic corroboration,9.000000,True
+P6,street,P06/street,13,2026-08-20 16:06:12.038,243.355000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P6,street,P06/street,14,2026-08-20 16:06:31.115,262.432000,GCMonitor log; cross-link heuristic corroboration,9.500000,True
+P6,street,P06/street,15,2026-08-20 16:06:50.113,281.430000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P7,supermarket,P07/supermarket,1,2026-08-21 09:51:09.384,12.644000,GCMonitor log; cross-link heuristic corroboration,12.000000,True
+P7,supermarket,P07/supermarket,2,2026-08-21 09:51:34.565,37.825000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P7,supermarket,P07/supermarket,3,2026-08-21 09:51:59.710,62.970000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P7,supermarket,P07/supermarket,4,2026-08-21 09:52:24.881,88.141000,GCMonitor log; cross-link heuristic corroboration,13.499000,True
+P7,supermarket,P07/supermarket,5,2026-08-21 09:52:50.098,113.358000,GCMonitor log; cross-link heuristic corroboration,9.000000,True
+P7,supermarket,P07/supermarket,6,2026-08-21 09:53:16.043,139.303000,GCMonitor log; cross-link heuristic corroboration,12.999000,True
+P7,supermarket,P07/supermarket,7,2026-08-21 09:53:41.183,164.443000,GCMonitor log; cross-link heuristic corroboration,14.000000,True
+P7,supermarket,P07/supermarket,8,2026-08-21 09:54:06.135,189.395000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P7,supermarket,P07/supermarket,9,2026-08-21 09:54:31.253,214.513000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P7,supermarket,P07/supermarket,10,2026-08-21 09:54:56.229,239.489000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P7,supermarket,P07/supermarket,11,2026-08-21 09:55:21.262,264.522000,GCMonitor log; cross-link heuristic corroboration,14.999000,True
+P7,supermarket,P07/supermarket,12,2026-08-21 09:55:46.301,289.561000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P7,street,P07/street,1,2026-08-21 09:42:07.683,18.470000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P7,street,P07/street,2,2026-08-21 09:42:33.845,44.632000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P7,street,P07/street,3,2026-08-21 09:43:00.312,71.099000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P7,street,P07/street,4,2026-08-21 09:43:26.699,97.486000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P7,street,P07/street,5,2026-08-21 09:43:53.329,124.116000,GCMonitor log; cross-link heuristic corroboration,12.000000,True
+P7,street,P07/street,6,2026-08-21 09:44:19.693,150.480000,GCMonitor log; cross-link heuristic corroboration,7.500000,True
+P7,street,P07/street,7,2026-08-21 09:44:45.566,176.353000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P7,street,P07/street,8,2026-08-21 09:45:11.787,202.574000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P7,street,P07/street,9,2026-08-21 09:45:37.683,228.470000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P7,street,P07/street,10,2026-08-21 09:46:02.880,253.667000,GCMonitor log; cross-link heuristic corroboration,1.999000,True
+P7,street,P07/street,11,2026-08-21 09:46:28.035,278.822000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P8,supermarket,P08/supermarket,1,2026-08-21 10:29:07.186,13.529000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P8,supermarket,P08/supermarket,2,2026-08-21 10:29:23.127,29.470000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P8,supermarket,P08/supermarket,3,2026-08-21 10:29:39.100,45.443000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P8,supermarket,P08/supermarket,4,2026-08-21 10:29:55.066,61.409000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P8,supermarket,P08/supermarket,5,2026-08-21 10:30:11.092,77.435000,GCMonitor log; cross-link heuristic corroboration,7.500000,True
+P8,supermarket,P08/supermarket,6,2026-08-21 10:30:27.052,93.395000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P8,supermarket,P08/supermarket,7,2026-08-21 10:30:43.308,109.651000,GCMonitor log; cross-link heuristic corroboration,7.500000,True
+P8,supermarket,P08/supermarket,8,2026-08-21 10:30:59.729,126.072000,GCMonitor log; cross-link heuristic corroboration,2.499000,True
+P8,supermarket,P08/supermarket,9,2026-08-21 10:31:15.701,142.044000,GCMonitor log; cross-link heuristic corroboration,9.000000,True
+P8,supermarket,P08/supermarket,10,2026-08-21 10:31:31.562,157.905000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P8,supermarket,P08/supermarket,11,2026-08-21 10:31:47.468,173.811000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P8,supermarket,P08/supermarket,12,2026-08-21 10:32:03.506,189.849000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P8,supermarket,P08/supermarket,13,2026-08-21 10:32:19.398,205.741000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P8,supermarket,P08/supermarket,14,2026-08-21 10:32:35.560,221.903000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P8,supermarket,P08/supermarket,15,2026-08-21 10:32:51.528,237.871000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P8,supermarket,P08/supermarket,16,2026-08-21 10:33:07.357,253.700000,GCMonitor log; cross-link heuristic corroboration,5.499000,True
+P8,supermarket,P08/supermarket,17,2026-08-21 10:33:23.157,269.500000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P8,supermarket,P08/supermarket,18,2026-08-21 10:33:38.876,285.219000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P8,street,P08/street,1,2026-08-21 10:17:14.025,10.482000,GCMonitor log; cross-link heuristic corroboration,4.000000,True
+P8,street,P08/street,2,2026-08-21 10:17:28.346,24.803000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P8,street,P08/street,3,2026-08-21 10:17:42.492,38.949000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P8,street,P08/street,4,2026-08-21 10:17:56.962,53.419000,GCMonitor log; cross-link heuristic corroboration,3.999000,True
+P8,street,P08/street,5,2026-08-21 10:18:11.403,67.860000,GCMonitor log; cross-link heuristic corroboration,6.000000,True
+P8,street,P08/street,6,2026-08-21 10:18:25.409,81.866000,GCMonitor log; cross-link heuristic corroboration,4.500000,True
+P8,street,P08/street,7,2026-08-21 10:18:39.377,95.834000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P8,street,P08/street,8,2026-08-21 10:18:53.382,109.839000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P8,street,P08/street,9,2026-08-21 10:19:07.396,123.853000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P8,street,P08/street,10,2026-08-21 10:19:21.439,137.896000,GCMonitor log; cross-link heuristic corroboration,3.000000,True
+P8,street,P08/street,11,2026-08-21 10:19:35.591,152.048000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P8,street,P08/street,12,2026-08-21 10:19:49.562,166.019000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P8,street,P08/street,13,2026-08-21 10:20:03.621,180.078000,GCMonitor log; cross-link heuristic corroboration,5.999000,True
+P8,street,P08/street,14,2026-08-21 10:20:17.637,194.094000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P8,street,P08/street,15,2026-08-21 10:20:31.604,208.061000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P8,street,P08/street,16,2026-08-21 10:20:45.625,222.082000,GCMonitor log; cross-link heuristic corroboration,4.500000,True
+P8,street,P08/street,17,2026-08-21 10:20:59.637,236.094000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P8,street,P08/street,18,2026-08-21 10:21:13.611,250.068000,GCMonitor log; cross-link heuristic corroboration,7.999000,True
+P8,street,P08/street,19,2026-08-21 10:21:27.671,264.128000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P8,street,P08/street,20,2026-08-21 10:21:41.764,278.221000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P8,street,P08/street,21,2026-08-21 10:21:55.889,292.346000,GCMonitor log; cross-link heuristic corroboration,5.000000,True
+P9,supermarket,P09/supermarket,1,2026-08-21 10:52:54.497,15.039000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P9,supermarket,P09/supermarket,2,2026-08-21 10:53:23.454,43.996000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P9,supermarket,P09/supermarket,3,2026-08-21 10:53:52.323,72.865000,GCMonitor log; cross-link heuristic corroboration,4.999000,True
+P9,supermarket,P09/supermarket,4,2026-08-21 10:54:21.384,101.926000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P9,supermarket,P09/supermarket,5,2026-08-21 10:54:49.923,130.465000,GCMonitor log; cross-link heuristic corroboration,0.501000,True
+P9,supermarket,P09/supermarket,6,2026-08-21 10:55:18.594,159.136000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P9,supermarket,P09/supermarket,7,2026-08-21 10:55:47.342,187.884000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P9,supermarket,P09/supermarket,8,2026-08-21 10:56:15.985,216.527000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P9,supermarket,P09/supermarket,9,2026-08-21 10:56:44.551,245.093000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P9,supermarket,P09/supermarket,10,2026-08-21 10:57:13.319,273.861000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P9,street,P09/street,1,2026-08-21 10:43:55.420,13.161000,GCMonitor log; cross-link heuristic corroboration,8.000000,True
+P9,street,P09/street,2,2026-08-21 10:44:24.258,41.999000,GCMonitor log; cross-link heuristic corroboration,5.500000,True
+P9,street,P09/street,3,2026-08-21 10:44:52.321,70.062000,GCMonitor log; cross-link heuristic corroboration,13.000000,True
+P9,street,P09/street,4,2026-08-21 10:45:20.698,98.439000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P9,street,P09/street,5,2026-08-21 10:45:48.642,126.383000,GCMonitor log; cross-link heuristic corroboration,7.499000,True
+P9,street,P09/street,6,2026-08-21 10:46:17.548,155.289000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P9,street,P09/street,7,2026-08-21 10:46:46.553,184.294000,GCMonitor log; cross-link heuristic corroboration,9.000000,True
+P9,street,P09/street,8,2026-08-21 10:47:14.901,212.642000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P9,street,P09/street,9,2026-08-21 10:47:43.424,241.165000,GCMonitor log; cross-link heuristic corroboration,5.499000,True
+P9,street,P09/street,10,2026-08-21 10:48:12.221,269.962000,GCMonitor log; cross-link heuristic corroboration,9.999000,True
+P9,street,P09/street,11,2026-08-21 10:48:40.884,298.625000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P10,supermarket,P10/supermarket,1,2026-08-21 11:17:41.537,16.398000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P10,supermarket,P10/supermarket,2,2026-08-21 11:18:15.238,50.099000,GCMonitor log; cross-link heuristic corroboration,16.500000,True
+P10,supermarket,P10/supermarket,3,2026-08-21 11:18:48.928,83.789000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P10,supermarket,P10/supermarket,4,2026-08-21 11:19:22.632,117.493000,GCMonitor log; cross-link heuristic corroboration,9.499000,True
+P10,supermarket,P10/supermarket,5,2026-08-21 11:19:56.054,150.915000,GCMonitor log; cross-link heuristic corroboration,8.500000,True
+P10,supermarket,P10/supermarket,6,2026-08-21 11:20:29.688,184.549000,GCMonitor log; cross-link heuristic corroboration,7.500000,True
+P10,supermarket,P10/supermarket,7,2026-08-21 11:21:03.264,218.125000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P10,supermarket,P10/supermarket,8,2026-08-21 11:21:37.395,252.256000,GCMonitor log; cross-link heuristic corroboration,4.999000,True
+P10,supermarket,P10/supermarket,9,2026-08-21 11:22:10.952,285.813000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P10,street,P10/street,1,2026-08-21 11:09:18.635,0.788000,GCMonitor log; cross-link heuristic corroboration,8.499000,True
+P10,street,P10/street,2,2026-08-21 11:09:58.270,40.423000,GCMonitor log; cross-link heuristic corroboration,6.999000,True
+P10,street,P10/street,3,2026-08-21 11:10:37.932,80.085000,GCMonitor log; cross-link heuristic corroboration,7.000000,True
+P10,street,P10/street,4,2026-08-21 11:11:18.522,120.675000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P10,street,P10/street,5,2026-08-21 11:11:59.436,161.589000,GCMonitor log; cross-link heuristic corroboration,8.999000,True
+P10,street,P10/street,6,2026-08-21 11:12:40.277,202.430000,GCMonitor log; cross-link heuristic corroboration,6.499000,True
+P10,street,P10/street,7,2026-08-21 11:13:20.723,242.876000,GCMonitor log; cross-link heuristic corroboration,6.500000,True
+P10,street,P10/street,8,2026-08-21 11:14:01.527,283.680000,GCMonitor log; cross-link heuristic corroboration,7.000000,True

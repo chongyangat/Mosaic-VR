@@ -1,0 +1,18 @@
+{
+  "Version": "1.0",
+  "ExperimentName": "2026-08-14_19-51-40",
+  "CreateTime": "2026-08-14T19:51:40",
+  "Description": "眼动追踪试验数据采集",
+  "DataFiles": [
+    {
+      "Type": "EyesTracking",
+      "Path": "EyesTracking_2026-08-14_19-51-40.csv",
+      "Description": "眼动追踪数据文件"
+    },
+    {
+      "Type": "GazeTracking",
+      "Path": "GazeTracking_2026-08-14_19-51-40.csv",
+      "Description": "凝视点追踪数据文件"
+    }
+  ]
+}

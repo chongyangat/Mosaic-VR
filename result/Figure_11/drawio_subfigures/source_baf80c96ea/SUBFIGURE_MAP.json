@@ -1,0 +1,65 @@
+{
+  "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_11\\source_package\\03_Figure_Sources_Internal\\Figure_11\\Figure_11_representative_full_workflow_street.drawio",
+  "source_sha256": "baf80c96eac0c95aa0679b7d307fe48daeac16c64e1425a94033c6f17684f026",
+  "page_count": 1,
+  "assets": [
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_11\\drawio_subfigures\\source_baf80c96ea\\page_01_Representative_full-workflow_Str__cell_chart_003.png%3bbase64",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_11\\source_package\\03_Figure_Sources_Internal\\Figure_11\\Figure_11_representative_full_workflow_street.drawio",
+      "diagram_name": "Representative full-workflow Street run",
+      "diagram_id": "street",
+      "page_index": 1,
+      "cell_id": "chart",
+      "location": "style",
+      "mime": "image/png%3bbase64",
+      "sha256": "8bfd7f5a1ed58df4761f26825e63a5aa98773d5f2940a178c7c0205484aa274b",
+      "bytes": 720661,
+      "geometry": {
+        "height": "1146.67",
+        "width": "1720",
+        "x": "40",
+        "y": "90",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          4320,
+          2880
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_11\\drawio_subfigures\\source_baf80c96ea\\page_01_Representative_full-workflow_Str__cell_runtime_005.png%3bbase64",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_11\\source_package\\03_Figure_Sources_Internal\\Figure_11\\Figure_11_representative_full_workflow_street.drawio",
+      "diagram_name": "Representative full-workflow Street run",
+      "diagram_id": "street",
+      "page_index": 1,
+      "cell_id": "runtime",
+      "location": "style",
+      "mime": "image/png%3bbase64",
+      "sha256": "89bbd9937bb29c94636596b28fdd504b5797807c67379b0b5f1e6e7f797c5311",
+      "bytes": 19261020,
+      "geometry": {
+        "height": "448.6",
+        "width": "1720",
+        "x": "40",
+        "y": "1260",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          4992,
+          1284
+        ]
+      }
+    }
+  ],
+  "external_references": [],
+  "editable_pages": []
+}

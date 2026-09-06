@@ -1,0 +1,65 @@
+{
+  "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\source_package\\03_Figure_Sources_Internal\\Figure_04\\Figure_04_experimental_setup_monitoring_interface.drawio",
+  "source_sha256": "eb3fc35d9a1c12046f0e3949e24f21a97984db8c1c8a590c5ba95f4b52623771",
+  "page_count": 1,
+  "assets": [
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\drawio_subfigures\\source_eb3fc35d9a\\page_01_Experiment_setup_and_software__cell_setup_a_003.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\source_package\\03_Figure_Sources_Internal\\Figure_04\\Figure_04_experimental_setup_monitoring_interface.drawio",
+      "diagram_name": "Experiment setup and software",
+      "diagram_id": "setupCodeAligned",
+      "page_index": 1,
+      "cell_id": "setup_a",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "c203ef8f945bd2554c472468edb3207df3612901c96e901e19062da2afa2e8b3",
+      "bytes": 6231956,
+      "geometry": {
+        "height": "293",
+        "width": "520",
+        "x": "45",
+        "y": "55",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          1920,
+          1080
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\drawio_subfigures\\source_eb3fc35d9a\\page_01_Experiment_setup_and_software__cell_setup_b_004.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_04\\source_package\\03_Figure_Sources_Internal\\Figure_04\\Figure_04_experimental_setup_monitoring_interface.drawio",
+      "diagram_name": "Experiment setup and software",
+      "diagram_id": "setupCodeAligned",
+      "page_index": 1,
+      "cell_id": "setup_b",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "ca12f2d98f02be2fb813a7f6a133276e86782726de5d98cf85228d43c2f854d3",
+      "bytes": 3261555,
+      "geometry": {
+        "height": "269",
+        "width": "530",
+        "x": "625",
+        "y": "64",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    }
+  ],
+  "external_references": [],
+  "editable_pages": []
+}

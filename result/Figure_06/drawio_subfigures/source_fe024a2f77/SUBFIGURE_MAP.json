@@ -1,0 +1,121 @@
+{
+  "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\source_package\\03_Figure_Sources_Internal\\Figure_06\\Figure_06_bidirectional_authoritative_state_propagation.drawio",
+  "source_sha256": "fe024a2f775c5dabd902cad6e104c3c4b0ef1bf9f0d22336e9d205e939545cc0",
+  "page_count": 1,
+  "assets": [
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\drawio_subfigures\\source_fe024a2f77\\page_01_Dual-end_state_interaction__cell_de_a_003.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\source_package\\03_Figure_Sources_Internal\\Figure_06\\Figure_06_bidirectional_authoritative_state_propagation.drawio",
+      "diagram_name": "Dual-end state interaction",
+      "diagram_id": "dualEndCodeAligned",
+      "page_index": 1,
+      "cell_id": "de_a",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "59ab09a18324bf037fe0cecaa32000e515163a28fcf8e5195d444020900050a6",
+      "bytes": 5662100,
+      "geometry": {
+        "height": "231",
+        "width": "455",
+        "x": "10",
+        "y": "81",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          3833,
+          1942
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\drawio_subfigures\\source_fe024a2f77\\page_01_Dual-end_state_interaction__cell_de_b_004.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\source_package\\03_Figure_Sources_Internal\\Figure_06\\Figure_06_bidirectional_authoritative_state_propagation.drawio",
+      "diagram_name": "Dual-end state interaction",
+      "diagram_id": "dualEndCodeAligned",
+      "page_index": 1,
+      "cell_id": "de_b",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "650a928af70d8c8845cbaa322e5e9d18a0359bd683c60a67385a07a05386adbf",
+      "bytes": 6021213,
+      "geometry": {
+        "height": "230",
+        "width": "455",
+        "x": "625",
+        "y": "82",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          3835,
+          1939
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\drawio_subfigures\\source_fe024a2f77\\page_01_Dual-end_state_interaction__cell_de_c_008.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\source_package\\03_Figure_Sources_Internal\\Figure_06\\Figure_06_bidirectional_authoritative_state_propagation.drawio",
+      "diagram_name": "Dual-end state interaction",
+      "diagram_id": "dualEndCodeAligned",
+      "page_index": 1,
+      "cell_id": "de_c",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "e8ebe910715a1ea63eb20027e580205d6258110640b327cffea410d5d8e12c6a",
+      "bytes": 3151893,
+      "geometry": {
+        "height": "280",
+        "width": "280",
+        "x": "53",
+        "y": "405",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\drawio_subfigures\\source_fe024a2f77\\page_01_Dual-end_state_interaction__cell_de_d_009.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_06\\source_package\\03_Figure_Sources_Internal\\Figure_06\\Figure_06_bidirectional_authoritative_state_propagation.drawio",
+      "diagram_name": "Dual-end state interaction",
+      "diagram_id": "dualEndCodeAligned",
+      "page_index": 1,
+      "cell_id": "de_d",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "5f2a58696cc682365da0db772bdd22c548a2abf617b25e5bb409d34b5558172b",
+      "bytes": 6748680,
+      "geometry": {
+        "height": "305",
+        "width": "600",
+        "x": "480",
+        "y": "400.5",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          3840,
+          1949
+        ]
+      }
+    }
+  ],
+  "external_references": [],
+  "editable_pages": []
+}

@@ -1,0 +1,26 @@
+{
+    "actors": [
+    ],
+    "models": [
+        {
+            "filename": "",
+            "name": "conethree",
+            "type": 3
+        },
+        {
+            "filename": "",
+            "name": "cube",
+            "type": 1
+        },
+        {
+            "filename": "",
+            "name": "ring",
+            "type": 2
+        },
+        {
+            "filename": "",
+            "name": "sphere",
+            "type": 0
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 12,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image12.png",
+    "caption": "Figure 12. Physical assessment of residual HMD–MoCap alignment after application-level clock mapping. Quest RenderPredicted CenterEye and HMD-mounted optical rigid-body poses were compared in the PC reference-time domain during the same head motion. (a) Held-out 3D trajectories after temporal alignment and frozen rigid registration. (b) Translation, rotation, and equal-weight cross-correlations for MoCap(t) versus Quest(t + τ); the primary across-window median was approximately −6.98 ms. (c) Nine 12-s windows (1-s step; 11-s overlap) summarize within-recording stability; shading indicates mean ± SD, the dashed line the median, and the star the representative window. (d) Aligned standardized translation-speed profiles in that 12-s window.",
+    "sha256": "2606330d84e42b3645a63bfe3a78c21a5122e916b5888d3e15af38922568c64e",
+    "bytes": 727885,
+    "pixels": [
+      4321,
+      2951
+    ]
+  },
+  {
+    "figure": 12,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image12.png",
+    "caption": "Figure 12. Physical assessment of residual HMD–MoCap alignment after application-level clock mapping. Quest RenderPredicted CenterEye and HMD-mounted optical rigid-body poses were compared in the PC reference-time domain during the same head motion. (a) Held-out 3D trajectories after temporal alignment and frozen rigid registration. (b) Translation, rotation, and equal-weight cross-correlations for MoCap(t) versus Quest(t + τ); the primary across-window median was approximately −6.98 ms. (c) Nine 12-s windows (1-s step; 11-s overlap) summarize within-recording stability; shading indicates mean ± SD, the dashed line the median, and the star the representative window. (d) Aligned standardized translation-speed profiles in that 12-s window.",
+    "sha256": "2606330d84e42b3645a63bfe3a78c21a5122e916b5888d3e15af38922568c64e",
+    "bytes": 727885,
+    "pixels": [
+      4321,
+      2951
+    ]
+  }
+]

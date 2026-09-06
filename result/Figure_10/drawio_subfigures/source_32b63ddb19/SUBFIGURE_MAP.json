@@ -1,0 +1,65 @@
+{
+  "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_10\\source_package\\03_Figure_Sources_Internal\\Figure_10\\Figure_10_representative_full_workflow_supermarket.drawio",
+  "source_sha256": "32b63ddb19494fd6d8c47aafbcb611fd4a28a0b98a339f6c97bc9a79dd0c2e31",
+  "page_count": 1,
+  "assets": [
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_10\\drawio_subfigures\\source_32b63ddb19\\page_01_Representative_full-workflow_Sup__cell_chart_003.png%3bbase64",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_10\\source_package\\03_Figure_Sources_Internal\\Figure_10\\Figure_10_representative_full_workflow_supermarket.drawio",
+      "diagram_name": "Representative full-workflow Supermarket run",
+      "diagram_id": "supermarket",
+      "page_index": 1,
+      "cell_id": "chart",
+      "location": "style",
+      "mime": "image/png%3bbase64",
+      "sha256": "517df3eb8e099ebf8e5d48ab81c3a45aa6a93fced469aa3aa0e3bbd07bdf6d14",
+      "bytes": 796811,
+      "geometry": {
+        "height": "1146.67",
+        "width": "1720",
+        "x": "40",
+        "y": "90",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          4320,
+          2880
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_10\\drawio_subfigures\\source_32b63ddb19\\page_01_Representative_full-workflow_Sup__cell_runtime_005.png%3bbase64",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_10\\source_package\\03_Figure_Sources_Internal\\Figure_10\\Figure_10_representative_full_workflow_supermarket.drawio",
+      "diagram_name": "Representative full-workflow Supermarket run",
+      "diagram_id": "supermarket",
+      "page_index": 1,
+      "cell_id": "runtime",
+      "location": "style",
+      "mime": "image/png%3bbase64",
+      "sha256": "7e2447f9c06f5edfc42caf8255bbd197a86a681cc39e4e287bd1f9a7e377b2b6",
+      "bytes": 19531037,
+      "geometry": {
+        "height": "448.6",
+        "width": "1720",
+        "x": "40",
+        "y": "1260",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          4992,
+          1302
+        ]
+      }
+    }
+  ],
+  "external_references": [],
+  "editable_pages": []
+}

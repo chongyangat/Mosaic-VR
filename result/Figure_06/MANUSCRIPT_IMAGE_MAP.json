@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 6,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image6.png",
+    "caption": "Figure 6. Bidirectional authoritative state propagation during a trial. (a,b) An Experimenter-side light-intensity condition is applied at the server and replicated to both endpoint renderers, changing the rendered scene brightness. (c,d) After the Participant retrieves a target product, the server updates the authoritative task state and replicates the result to the Experimenter-side task-progress display. Together, the two examples demonstrate server-authoritative state propagation and role-specific presentation in both information directions.",
+    "sha256": "1d34fde1cd80dd65d29e161228ffff40785ad22034e0bbd1bfede7091cd9468b",
+    "bytes": 49151812,
+    "pixels": [
+      6480,
+      4314
+    ]
+  },
+  {
+    "figure": 6,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image6.png",
+    "caption": "Figure 6. Bidirectional shared-state propagation. (a,b) An Experimenter light-intensity update changes both endpoint renderers. (c,d) Participant product retrieval updates server-authoritative task state and Experimenter task progress.",
+    "sha256": "5c9df9a3031912f7643571cb189fe520b9e2b436777aa1c2c9e427b097797443",
+    "bytes": 5677068,
+    "pixels": [
+      4062,
+      2704
+    ]
+  }
+]

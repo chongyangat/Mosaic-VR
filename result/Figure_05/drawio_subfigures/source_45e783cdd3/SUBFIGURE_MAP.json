@@ -1,0 +1,261 @@
+{
+  "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+  "source_sha256": "45e783cdd3c46898d42d9c437467529204909edff19b84f97ce5c54172219d85",
+  "page_count": 1,
+  "assets": [
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_b1_image_017.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "b1_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "0739da4f6172509b87260c04065c6c3b02e1f4db1e07b0f37f471226002605d9",
+      "bytes": 2374356,
+      "geometry": {
+        "x": "1275",
+        "y": "190",
+        "width": "660",
+        "height": "335",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_b2_image_021.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "b2_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "948e7093d6b68e082bcd115e5c1378dfd3d440a6fc1f5320c491f9a1069783ea",
+      "bytes": 2342157,
+      "geometry": {
+        "x": "1275",
+        "y": "600",
+        "width": "660",
+        "height": "335",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_b3_image_025.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "b3_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "06c1ab47da09a498d89f18309b356cccdfc4fd84e6be6dc7ea75e2d0d4d511d9",
+      "bytes": 2194664,
+      "geometry": {
+        "x": "1275",
+        "y": "1130",
+        "width": "660",
+        "height": "335",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_b4_image_029.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "b4_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "e0e010a692b60680616486f389903ea578a929ca1fe197ddd190d94547081f0c",
+      "bytes": 3021653,
+      "geometry": {
+        "x": "1275",
+        "y": "1550",
+        "width": "660",
+        "height": "335",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_b5_image_033.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "b5_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "ca12f2d98f02be2fb813a7f6a133276e86782726de5d98cf85228d43c2f854d3",
+      "bytes": 3261555,
+      "geometry": {
+        "x": "1275",
+        "y": "2050",
+        "width": "660",
+        "height": "335",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_b6_image_037.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "b6_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "80641c1dff58ba2acb6789c8ec2f73f9ac869c41a0e9dd2786d7ccf2b5ffb0d2",
+      "bytes": 2587244,
+      "geometry": {
+        "x": "1275",
+        "y": "2600",
+        "width": "660",
+        "height": "335",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_a1_image_041.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "a1_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "87c491b6bc4ef6629f0de884cdaa9d1e0ee9f95a7505beb88f838c421e5782d9",
+      "bytes": 3151893,
+      "geometry": {
+        "x": "265",
+        "y": "320",
+        "width": "460",
+        "height": "460",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_a2_image_046.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "a2_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "f97f2ed39c4b0212421830cb4b1b44000959ebbfe76a931e955b7fc8c9c5536b",
+      "bytes": 7825780,
+      "geometry": {
+        "x": "165",
+        "y": "2050",
+        "width": "660",
+        "height": "335",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          3840,
+          1949
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_45e783cdd3\\page_01_Workflow__cell_a3_image_050.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\external_source_assets\\figures\\fig_workflow\\output\\MOSAIC_VR_dual_view_workflow_word_page.drawio",
+      "diagram_name": "Workflow",
+      "diagram_id": "mosaic-vr-workflow",
+      "page_index": 1,
+      "cell_id": "a3_image",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "38db3ee78315693c5e6e091d3bd7b9f2e00bb2d50e9dc240bc109e61a67c2af1",
+      "bytes": 3151893,
+      "geometry": {
+        "x": "280",
+        "y": "2590",
+        "width": "430",
+        "height": "430",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          1024,
+          1024
+        ]
+      }
+    }
+  ],
+  "external_references": [],
+  "editable_pages": []
+}

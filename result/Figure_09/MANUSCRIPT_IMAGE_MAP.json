@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 9,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image9.png",
+    "caption": "Figure 9. Participant-level median latency distributions for the four monitored runtime paths under the two-scene marker-only baseline configuration. (a) Supermarket; (b) Street. Each point represents one participant’s median over the common 300-s window; boxes, center lines, and whiskers denote the across-participant interquartile range, median, and , respectively (). PC–VR shared-state RTT follows a distinct timing semantic and is summarized by its within-path Participant and scene distributions.",
+    "sha256": "3cfb03a8f01afee6081c67e5214ce348ddec96d96071ef22c83a34d87c9ea026",
+    "bytes": 220254,
+    "pixels": [
+      4233,
+      1785
+    ]
+  },
+  {
+    "figure": 9,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image9.png",
+    "caption": "Figure 9. Participant-level median latency distributions for the four monitored runtime paths under the two-scene marker-only baseline configuration. (a) Supermarket; (b) Street. Each point represents one participant’s median over the common 300-s window; boxes and center lines denote the across-participant interquartile range and median; whiskers extend to the most extreme observations within  of the quartiles (). MoCap values are conditional application diagnostics without per-row clock-validity evidence. PC–VR shared-state RTT follows a distinct timing semantic and is summarized by its within-path Participant and scene distributions.",
+    "sha256": "3cfb03a8f01afee6081c67e5214ce348ddec96d96071ef22c83a34d87c9ea026",
+    "bytes": 220254,
+    "pixels": [
+      4233,
+      1785
+    ]
+  }
+]

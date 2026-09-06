@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 10,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image10.png",
+    "caption": "Figure 10. Path-specific latency estimates and runtime states during a representative integrated multimodal task run in Supermarket. (a) MoCap→PC and MoCap→VR; (b) EyeTracking→PC and PC–VR shared-state RTT; (c) Experimenter monitor in the Participant first-person view, showing shelf search and the scene-referenced gaze marker; (d) concurrently running motion-capture software showing the live MoCap stream. Panels (c,d) are frames extracted from Supplementary Video S1. The latency traces and video are aligned to the “Start Recording” event.",
+    "sha256": "b02eb178a446cbb01823e1489697052e995f1cad14204307c921453186843651",
+    "bytes": 51786966,
+    "pixels": [
+      10380,
+      9744
+    ]
+  },
+  {
+    "figure": 10,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image10.png",
+    "caption": "Figure 10. Path-specific latency estimates and runtime states during a representative integrated multimodal task run in Supermarket. (a) MoCap→PC and MoCap→VR; (b) EyeTracking→PC and PC–VR shared-state RTT; (c) Experimenter monitor in the Participant first-person view, showing shelf search and the scene-referenced gaze marker; (d) concurrently running motion-capture software showing the live MoCap stream. Panels (c,d) are frames extracted from Supplementary Video S1. The latency traces and video are aligned to the “Start Recording” event. Curves exclude heuristically identified GC-associated intervals only on the PC-inbound paths; Table S5 gives the retained-interval sensitivity. MoCap values and reconstructed times are conditional diagnostics, and video alignment is approximate.",
+    "sha256": "1315a2752f58d3ac24ffa801e7a5ce74b15825feefe96188d302c7a9d4385436",
+    "bytes": 3537459,
+    "pixels": [
+      3840,
+      3605
+    ]
+  }
+]

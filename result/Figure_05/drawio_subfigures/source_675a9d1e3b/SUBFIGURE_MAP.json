@@ -1,0 +1,289 @@
+{
+  "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+  "source_sha256": "675a9d1e3ba5f9dfcc408b7f87512d2ba7a4e39c743dfb43adf1a9578ffef89f",
+  "page_count": 1,
+  "assets": [
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_a1_007.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_a1",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "87c491b6bc4ef6629f0de884cdaa9d1e0ee9f95a7505beb88f838c421e5782d9",
+      "bytes": 3151893,
+      "geometry": {
+        "height": "240",
+        "width": "240",
+        "x": "130",
+        "y": "170",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_b1_010.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_b1",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "0739da4f6172509b87260c04065c6c3b02e1f4db1e07b0f37f471226002605d9",
+      "bytes": 2374356,
+      "geometry": {
+        "height": "173",
+        "width": "340",
+        "x": "787.5",
+        "y": "130",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_b2_014.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_b2",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "948e7093d6b68e082bcd115e5c1378dfd3d440a6fc1f5320c491f9a1069783ea",
+      "bytes": 2342157,
+      "geometry": {
+        "height": "173",
+        "width": "340",
+        "x": "790",
+        "y": "345",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_b3_022.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_b3",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "06c1ab47da09a498d89f18309b356cccdfc4fd84e6be6dc7ea75e2d0d4d511d9",
+      "bytes": 2194664,
+      "geometry": {
+        "height": "160",
+        "width": "315",
+        "x": "805",
+        "y": "610",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_b4_025.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_b4",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "e0e010a692b60680616486f389903ea578a929ca1fe197ddd190d94547081f0c",
+      "bytes": 3021653,
+      "geometry": {
+        "height": "160",
+        "width": "315",
+        "x": "812.5",
+        "y": "810",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_b5_032.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_b5",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "ca12f2d98f02be2fb813a7f6a133276e86782726de5d98cf85228d43c2f854d3",
+      "bytes": 3261555,
+      "geometry": {
+        "height": "203",
+        "width": "400",
+        "x": "767.5",
+        "y": "1083.5",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_a3_038.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_a3",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "38db3ee78315693c5e6e091d3bd7b9f2e00bb2d50e9dc240bc109e61a67c2af1",
+      "bytes": 3151893,
+      "geometry": {
+        "height": "180",
+        "width": "180",
+        "x": "153.89",
+        "y": "1370",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_dv_b6_040.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "dv_b6",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "80641c1dff58ba2acb6789c8ec2f73f9ac869c41a0e9dd2786d7ccf2b5ffb0d2",
+      "bytes": 2587244,
+      "geometry": {
+        "height": "173",
+        "width": "340",
+        "x": "800",
+        "y": "1375",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          2560,
+          1299
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_9x09CuZW27INVWDOpXcl-1_045.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "9x09CuZW27INVWDOpXcl-1",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "05bf19655975c4f893f1755f65ae559c7eddfa04ad428e2de4df3904b1252630",
+      "bytes": 1131159,
+      "geometry": {
+        "height": "207",
+        "width": "207.78",
+        "x": "145",
+        "y": "1082.5",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          800,
+          797
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\drawio_subfigures\\source_675a9d1e3b\\page_01_Dual-view_workflow__cell_9x09CuZW27INVWDOpXcl-2_046.png",
+      "source_drawio": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\02_Figures_Submission\\data\\Figure_05\\source_package\\03_Figure_Sources_Internal\\Figure_05\\Figure_05_participant_experimenter_workflow.drawio",
+      "diagram_name": "Dual-view workflow",
+      "diagram_id": "dualViewCodeAligned",
+      "page_index": 1,
+      "cell_id": "9x09CuZW27INVWDOpXcl-2",
+      "location": "style",
+      "mime": "image/png",
+      "sha256": "ffcfae851454a52f345ea22a4ddb122798acefc2f125551b5c1dba8be6ad7493",
+      "bytes": 900116,
+      "geometry": {
+        "height": "279.84",
+        "width": "305",
+        "x": "115",
+        "y": "690.16",
+        "as": "geometry"
+      },
+      "verification": {
+        "method": "Pillow.verify",
+        "valid": true,
+        "format": "PNG",
+        "pixel_size": [
+          800,
+          734
+        ]
+      }
+    }
+  ],
+  "external_references": [],
+  "editable_pages": []
+}

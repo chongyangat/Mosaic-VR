@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 11,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image11.png",
+    "caption": "Figure 11. Path-specific latency estimates and runtime states during a representative integrated multimodal task run in Street. (a) MoCap→PC and MoCap→VR; (b) EyeTracking→PC and PC–VR shared-state RTT; (c) Experimenter monitor in third-person view, showing street navigation, the MoCap-driven avatar, and the gaze marker; (d) concurrently running motion-capture software showing the live MoCap stream. Panels (c,d) are frames extracted from Supplementary Video S2. The latency traces and video are aligned to the “Start Recording” event.",
+    "sha256": "a0198f6455d77323cde5b3f18d23ea9c4ffada9f90186e724ec931d0cd346022",
+    "bytes": 45320426,
+    "pixels": [
+      10380,
+      9744
+    ]
+  },
+  {
+    "figure": 11,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image11.png",
+    "caption": "Figure 11. Path-specific latency estimates and runtime states during a representative integrated multimodal task run in Street. (a) MoCap→PC and MoCap→VR; (b) EyeTracking→PC and PC–VR shared-state RTT; (c) Experimenter monitor in third-person view, showing street navigation, the MoCap-driven avatar, and the gaze marker; (d) concurrently running motion-capture software showing the live MoCap stream. Panels (c,d) are frames extracted from Supplementary Video S2. The latency traces and video are aligned to the “Start Recording” event. GC handling and the limitations of MoCap diagnostics and approximate video alignment are as described for Figure 10; Table S5 retains excluded intervals.",
+    "sha256": "86e093be398470c808aaa175d74f1bc723c5ece93cf6f4cd0f179b1a62a2d1ac",
+    "bytes": 2866520,
+    "pixels": [
+      3840,
+      3605
+    ]
+  }
+]

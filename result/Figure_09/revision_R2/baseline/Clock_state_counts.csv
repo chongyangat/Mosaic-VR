@@ -1,0 +1,161 @@
+﻿participant,scene,link,scheme,state,samples_n,denominator_n,percent
+P1,supermarket,EyeTracking→PC,GC_filtered,Ready,27051,27051,100.0000000000
+P1,supermarket,EyeTracking→PC,GC_retained,Ready,28432,28432,100.0000000000
+P1,supermarket,MoCap→PC,GC_filtered,<missing>,25685,25685,100.0000000000
+P1,supermarket,MoCap→PC,GC_retained,<missing>,27001,27001,100.0000000000
+P1,supermarket,MoCap→VR,GC_filtered,<missing>,26990,26990,100.0000000000
+P1,supermarket,MoCap→VR,GC_retained,<missing>,26990,26990,100.0000000000
+P1,supermarket,PC<->VR 状态同步,GC_filtered,Not required,15666,15666,100.0000000000
+P1,supermarket,PC<->VR 状态同步,GC_retained,Not required,15666,15666,100.0000000000
+P1,street,EyeTracking→PC,GC_filtered,Ready,27372,27372,100.0000000000
+P1,street,EyeTracking→PC,GC_retained,Ready,28766,28766,100.0000000000
+P1,street,MoCap→PC,GC_filtered,<missing>,25683,25683,100.0000000000
+P1,street,MoCap→PC,GC_retained,<missing>,26994,26994,100.0000000000
+P1,street,MoCap→VR,GC_filtered,<missing>,26985,26985,100.0000000000
+P1,street,MoCap→VR,GC_retained,<missing>,26985,26985,100.0000000000
+P1,street,PC<->VR 状态同步,GC_filtered,Not required,17200,17200,100.0000000000
+P1,street,PC<->VR 状态同步,GC_retained,Not required,17200,17200,100.0000000000
+P2,supermarket,EyeTracking→PC,GC_filtered,Ready,27736,27736,100.0000000000
+P2,supermarket,EyeTracking→PC,GC_retained,Ready,28745,28745,100.0000000000
+P2,supermarket,MoCap→PC,GC_filtered,<missing>,26045,26045,100.0000000000
+P2,supermarket,MoCap→PC,GC_retained,<missing>,26997,26997,100.0000000000
+P2,supermarket,MoCap→VR,GC_filtered,<missing>,26994,26994,100.0000000000
+P2,supermarket,MoCap→VR,GC_retained,<missing>,26994,26994,100.0000000000
+P2,supermarket,PC<->VR 状态同步,GC_filtered,Not required,17189,17189,100.0000000000
+P2,supermarket,PC<->VR 状态同步,GC_retained,Not required,17189,17189,100.0000000000
+P2,street,EyeTracking→PC,GC_filtered,Ready,27227,27227,100.0000000000
+P2,street,EyeTracking→PC,GC_retained,Ready,28413,28413,100.0000000000
+P2,street,MoCap→PC,GC_filtered,<missing>,25871,25871,100.0000000000
+P2,street,MoCap→PC,GC_retained,<missing>,27000,27000,100.0000000000
+P2,street,MoCap→VR,GC_filtered,<missing>,26994,26994,100.0000000000
+P2,street,MoCap→VR,GC_retained,<missing>,26994,26994,100.0000000000
+P2,street,PC<->VR 状态同步,GC_filtered,Not required,17259,17259,100.0000000000
+P2,street,PC<->VR 状态同步,GC_retained,Not required,17259,17259,100.0000000000
+P3,supermarket,EyeTracking→PC,GC_filtered,Ready,27464,27464,100.0000000000
+P3,supermarket,EyeTracking→PC,GC_retained,Ready,28564,28564,100.0000000000
+P3,supermarket,MoCap→PC,GC_filtered,<missing>,25964,25964,100.0000000000
+P3,supermarket,MoCap→PC,GC_retained,<missing>,27001,27001,100.0000000000
+P3,supermarket,MoCap→VR,GC_filtered,<missing>,26988,26988,100.0000000000
+P3,supermarket,MoCap→VR,GC_retained,<missing>,26988,26988,100.0000000000
+P3,supermarket,PC<->VR 状态同步,GC_filtered,Not required,17158,17158,100.0000000000
+P3,supermarket,PC<->VR 状态同步,GC_retained,Not required,17158,17158,100.0000000000
+P3,street,EyeTracking→PC,GC_filtered,Ready,27817,27817,100.0000000000
+P3,street,EyeTracking→PC,GC_retained,Ready,28732,28732,100.0000000000
+P3,street,MoCap→PC,GC_filtered,<missing>,26142,26142,100.0000000000
+P3,street,MoCap→PC,GC_retained,<missing>,27000,27000,100.0000000000
+P3,street,MoCap→VR,GC_filtered,<missing>,26990,26990,100.0000000000
+P3,street,MoCap→VR,GC_retained,<missing>,26990,26990,100.0000000000
+P3,street,PC<->VR 状态同步,GC_filtered,Not required,17111,17111,100.0000000000
+P3,street,PC<->VR 状态同步,GC_retained,Not required,17111,17111,100.0000000000
+P4,supermarket,EyeTracking→PC,GC_filtered,Ready,27220,27220,100.0000000000
+P4,supermarket,EyeTracking→PC,GC_retained,Ready,28470,28470,100.0000000000
+P4,supermarket,MoCap→PC,GC_filtered,<missing>,25804,25804,100.0000000000
+P4,supermarket,MoCap→PC,GC_retained,<missing>,26993,26993,100.0000000000
+P4,supermarket,MoCap→VR,GC_filtered,<missing>,26991,26991,100.0000000000
+P4,supermarket,MoCap→VR,GC_retained,<missing>,26991,26991,100.0000000000
+P4,supermarket,PC<->VR 状态同步,GC_filtered,Not required,16034,16034,100.0000000000
+P4,supermarket,PC<->VR 状态同步,GC_retained,Not required,16034,16034,100.0000000000
+P4,street,EyeTracking→PC,GC_filtered,Ready,28139,28139,100.0000000000
+P4,street,EyeTracking→PC,GC_retained,Ready,28933,28933,100.0000000000
+P4,street,MoCap→PC,GC_filtered,<missing>,26256,26256,100.0000000000
+P4,street,MoCap→PC,GC_retained,<missing>,27000,27000,100.0000000000
+P4,street,MoCap→VR,GC_filtered,<missing>,26992,26992,100.0000000000
+P4,street,MoCap→VR,GC_retained,<missing>,26992,26992,100.0000000000
+P4,street,PC<->VR 状态同步,GC_filtered,Not required,16707,16707,100.0000000000
+P4,street,PC<->VR 状态同步,GC_retained,Not required,16707,16707,100.0000000000
+P5,supermarket,EyeTracking→PC,GC_filtered,Ready,27042,27042,100.0000000000
+P5,supermarket,EyeTracking→PC,GC_retained,Ready,28375,28375,100.0000000000
+P5,supermarket,MoCap→PC,GC_filtered,<missing>,25722,25722,100.0000000000
+P5,supermarket,MoCap→PC,GC_retained,<missing>,27000,27000,100.0000000000
+P5,supermarket,MoCap→VR,GC_filtered,<missing>,26990,26990,100.0000000000
+P5,supermarket,MoCap→VR,GC_retained,<missing>,26990,26990,100.0000000000
+P5,supermarket,PC<->VR 状态同步,GC_filtered,Not required,15948,15948,100.0000000000
+P5,supermarket,PC<->VR 状态同步,GC_retained,Not required,15948,15948,100.0000000000
+P5,street,EyeTracking→PC,GC_filtered,Ready,27668,27668,100.0000000000
+P5,street,EyeTracking→PC,GC_retained,Ready,28778,28778,100.0000000000
+P5,street,MoCap→PC,GC_filtered,<missing>,25960,25960,100.0000000000
+P5,street,MoCap→PC,GC_retained,<missing>,26996,26996,100.0000000000
+P5,street,MoCap→VR,GC_filtered,<missing>,26987,26987,100.0000000000
+P5,street,MoCap→VR,GC_retained,<missing>,26987,26987,100.0000000000
+P5,street,PC<->VR 状态同步,GC_filtered,Not required,16758,16758,100.0000000000
+P5,street,PC<->VR 状态同步,GC_retained,Not required,16758,16758,100.0000000000
+P6,supermarket,EyeTracking→PC,GC_filtered,Ready,28119,28119,100.0000000000
+P6,supermarket,EyeTracking→PC,GC_retained,Ready,28782,28782,100.0000000000
+P6,supermarket,MoCap→PC,GC_filtered,<missing>,26375,26375,100.0000000000
+P6,supermarket,MoCap→PC,GC_retained,<missing>,26999,26999,100.0000000000
+P6,supermarket,MoCap→VR,GC_filtered,<missing>,26986,26986,100.0000000000
+P6,supermarket,MoCap→VR,GC_retained,<missing>,26986,26986,100.0000000000
+P6,supermarket,PC<->VR 状态同步,GC_filtered,Not required,16159,16159,100.0000000000
+P6,supermarket,PC<->VR 状态同步,GC_retained,Not required,16159,16159,100.0000000000
+P6,street,EyeTracking→PC,GC_filtered,Ready,27577,27577,100.0000000000
+P6,street,EyeTracking→PC,GC_retained,Ready,28338,28338,100.0000000000
+P6,street,MoCap→PC,GC_filtered,<missing>,26268,26268,100.0000000000
+P6,street,MoCap→PC,GC_retained,<missing>,27000,27000,100.0000000000
+P6,street,MoCap→VR,GC_filtered,<missing>,26990,26990,100.0000000000
+P6,street,MoCap→VR,GC_retained,<missing>,26990,26990,100.0000000000
+P6,street,PC<->VR 状态同步,GC_filtered,Not required,16307,16307,100.0000000000
+P6,street,PC<->VR 状态同步,GC_retained,Not required,16307,16307,100.0000000000
+P7,supermarket,EyeTracking→PC,GC_filtered,Ready,27852,27852,100.0000000000
+P7,supermarket,EyeTracking→PC,GC_retained,Ready,28471,28471,100.0000000000
+P7,supermarket,MoCap→PC,GC_filtered,<missing>,26265,26265,100.0000000000
+P7,supermarket,MoCap→PC,GC_retained,<missing>,26855,26855,100.0000000000
+P7,supermarket,MoCap→VR,GC_filtered,<missing>,26846,26846,100.0000000000
+P7,supermarket,MoCap→VR,GC_retained,<missing>,26846,26846,100.0000000000
+P7,supermarket,PC<->VR 状态同步,GC_filtered,Not required,15288,15288,100.0000000000
+P7,supermarket,PC<->VR 状态同步,GC_retained,Not required,15288,15288,100.0000000000
+P7,street,EyeTracking→PC,GC_filtered,Ready,28298,28298,100.0000000000
+P7,street,EyeTracking→PC,GC_retained,Ready,28874,28874,100.0000000000
+P7,street,MoCap→PC,GC_filtered,<missing>,26458,26458,100.0000000000
+P7,street,MoCap→PC,GC_retained,<missing>,27001,27001,100.0000000000
+P7,street,MoCap→VR,GC_filtered,<missing>,26993,26993,100.0000000000
+P7,street,MoCap→VR,GC_retained,<missing>,26993,26993,100.0000000000
+P7,street,PC<->VR 状态同步,GC_filtered,Not required,16607,16607,100.0000000000
+P7,street,PC<->VR 状态同步,GC_retained,Not required,16607,16607,100.0000000000
+P8,supermarket,EyeTracking→PC,GC_filtered,Ready,27522,27522,100.0000000000
+P8,supermarket,EyeTracking→PC,GC_retained,Ready,28394,28394,100.0000000000
+P8,supermarket,MoCap→PC,GC_filtered,<missing>,25931,25931,100.0000000000
+P8,supermarket,MoCap→PC,GC_retained,<missing>,26756,26756,100.0000000000
+P8,supermarket,MoCap→VR,GC_filtered,<missing>,26745,26745,100.0000000000
+P8,supermarket,MoCap→VR,GC_retained,<missing>,26745,26745,100.0000000000
+P8,supermarket,PC<->VR 状态同步,GC_filtered,Not required,16882,16882,100.0000000000
+P8,supermarket,PC<->VR 状态同步,GC_retained,Not required,16882,16882,100.0000000000
+P8,street,EyeTracking→PC,GC_filtered,Ready,27838,27838,100.0000000000
+P8,street,EyeTracking→PC,GC_retained,Ready,28852,28852,100.0000000000
+P8,street,MoCap→PC,GC_filtered,<missing>,25999,25999,100.0000000000
+P8,street,MoCap→PC,GC_retained,<missing>,26951,26951,100.0000000000
+P8,street,MoCap→VR,GC_filtered,<missing>,26940,26940,100.0000000000
+P8,street,MoCap→VR,GC_retained,<missing>,26940,26940,100.0000000000
+P8,street,PC<->VR 状态同步,GC_filtered,Not required,16805,16805,100.0000000000
+P8,street,PC<->VR 状态同步,GC_retained,Not required,16805,16805,100.0000000000
+P9,supermarket,EyeTracking→PC,GC_filtered,Ready,27964,27964,100.0000000000
+P9,supermarket,EyeTracking→PC,GC_retained,Ready,28453,28453,100.0000000000
+P9,supermarket,MoCap→PC,GC_filtered,<missing>,26139,26139,100.0000000000
+P9,supermarket,MoCap→PC,GC_retained,<missing>,26594,26594,100.0000000000
+P9,supermarket,MoCap→VR,GC_filtered,<missing>,26585,26585,100.0000000000
+P9,supermarket,MoCap→VR,GC_retained,<missing>,26585,26585,100.0000000000
+P9,supermarket,PC<->VR 状态同步,GC_filtered,Not required,15719,15719,100.0000000000
+P9,supermarket,PC<->VR 状态同步,GC_retained,Not required,15719,15719,100.0000000000
+P9,street,EyeTracking→PC,GC_filtered,Ready,28313,28313,100.0000000000
+P9,street,EyeTracking→PC,GC_retained,Ready,28853,28853,100.0000000000
+P9,street,MoCap→PC,GC_filtered,<missing>,26182,26182,100.0000000000
+P9,street,MoCap→PC,GC_retained,<missing>,26683,26683,100.0000000000
+P9,street,MoCap→VR,GC_filtered,<missing>,26672,26672,100.0000000000
+P9,street,MoCap→VR,GC_retained,<missing>,26672,26672,100.0000000000
+P9,street,PC<->VR 状态同步,GC_filtered,Not required,16570,16570,100.0000000000
+P9,street,PC<->VR 状态同步,GC_retained,Not required,16570,16570,100.0000000000
+P10,supermarket,EyeTracking→PC,GC_filtered,Ready,28023,28023,100.0000000000
+P10,supermarket,EyeTracking→PC,GC_retained,Ready,28473,28473,100.0000000000
+P10,supermarket,MoCap→PC,GC_filtered,<missing>,26063,26063,100.0000000000
+P10,supermarket,MoCap→PC,GC_retained,<missing>,26474,26474,100.0000000000
+P10,supermarket,MoCap→VR,GC_filtered,<missing>,26460,26460,100.0000000000
+P10,supermarket,MoCap→VR,GC_retained,<missing>,26460,26460,100.0000000000
+P10,supermarket,PC<->VR 状态同步,GC_filtered,Not required,16302,16302,100.0000000000
+P10,supermarket,PC<->VR 状态同步,GC_retained,Not required,16302,16302,100.0000000000
+P10,street,EyeTracking→PC,GC_filtered,Ready,28461,28461,100.0000000000
+P10,street,EyeTracking→PC,GC_retained,Ready,28865,28865,100.0000000000
+P10,street,MoCap→PC,GC_filtered,<missing>,26059,26059,100.0000000000
+P10,street,MoCap→PC,GC_retained,<missing>,26431,26431,100.0000000000
+P10,street,MoCap→VR,GC_filtered,<missing>,26424,26424,100.0000000000
+P10,street,MoCap→VR,GC_retained,<missing>,26424,26424,100.0000000000
+P10,street,PC<->VR 状态同步,GC_filtered,Not required,17285,17285,100.0000000000
+P10,street,PC<->VR 状态同步,GC_retained,Not required,17285,17285,100.0000000000

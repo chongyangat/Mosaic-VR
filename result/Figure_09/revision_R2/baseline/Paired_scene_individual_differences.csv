@@ -1,0 +1,161 @@
+﻿scheme,metric,link,participant,street_minus_supermarket_ms
+GC_filtered,median_ms,EyeTracking→PC,P1,0.1100000000
+GC_filtered,median_ms,EyeTracking→PC,P10,-0.0200000000
+GC_filtered,median_ms,EyeTracking→PC,P2,0.0300000000
+GC_filtered,median_ms,EyeTracking→PC,P3,0.0800000000
+GC_filtered,median_ms,EyeTracking→PC,P4,-0.1100000000
+GC_filtered,median_ms,EyeTracking→PC,P5,0.0600000000
+GC_filtered,median_ms,EyeTracking→PC,P6,0.0200000000
+GC_filtered,median_ms,EyeTracking→PC,P7,0.1200000000
+GC_filtered,median_ms,EyeTracking→PC,P8,0.0800000000
+GC_filtered,median_ms,EyeTracking→PC,P9,-0.0800000000
+GC_filtered,median_ms,MoCap→PC,P1,0.1700000000
+GC_filtered,median_ms,MoCap→PC,P10,0.1400000000
+GC_filtered,median_ms,MoCap→PC,P2,-0.2200000000
+GC_filtered,median_ms,MoCap→PC,P3,0.2200000000
+GC_filtered,median_ms,MoCap→PC,P4,0.9800000000
+GC_filtered,median_ms,MoCap→PC,P5,2.1400000000
+GC_filtered,median_ms,MoCap→PC,P6,-0.3000000000
+GC_filtered,median_ms,MoCap→PC,P7,-0.1250000000
+GC_filtered,median_ms,MoCap→PC,P8,-0.9100000000
+GC_filtered,median_ms,MoCap→PC,P9,0.1000000000
+GC_filtered,median_ms,MoCap→VR,P1,-0.3000000000
+GC_filtered,median_ms,MoCap→VR,P10,0.0000000000
+GC_filtered,median_ms,MoCap→VR,P2,-0.0400000000
+GC_filtered,median_ms,MoCap→VR,P3,0.1100000000
+GC_filtered,median_ms,MoCap→VR,P4,0.9200000000
+GC_filtered,median_ms,MoCap→VR,P5,1.8300000000
+GC_filtered,median_ms,MoCap→VR,P6,-0.2500000000
+GC_filtered,median_ms,MoCap→VR,P7,-0.2500000000
+GC_filtered,median_ms,MoCap→VR,P8,-0.9000000000
+GC_filtered,median_ms,MoCap→VR,P9,0.1000000000
+GC_filtered,median_ms,PC<->VR 状态同步,P1,-2.7000000000
+GC_filtered,median_ms,PC<->VR 状态同步,P10,-2.7300000000
+GC_filtered,median_ms,PC<->VR 状态同步,P2,2.5400000000
+GC_filtered,median_ms,PC<->VR 状态同步,P3,0.1100000000
+GC_filtered,median_ms,PC<->VR 状态同步,P4,-4.2100000000
+GC_filtered,median_ms,PC<->VR 状态同步,P5,-0.9500000000
+GC_filtered,median_ms,PC<->VR 状态同步,P6,-0.0200000000
+GC_filtered,median_ms,PC<->VR 状态同步,P7,1.2300000000
+GC_filtered,median_ms,PC<->VR 状态同步,P8,-2.2500000000
+GC_filtered,median_ms,PC<->VR 状态同步,P9,-1.9300000000
+GC_filtered,p99_ms,EyeTracking→PC,P1,0.3650000000
+GC_filtered,p99_ms,EyeTracking→PC,P10,-8.5900000000
+GC_filtered,p99_ms,EyeTracking→PC,P2,0.3100000000
+GC_filtered,p99_ms,EyeTracking→PC,P3,-1.8049000000
+GC_filtered,p99_ms,EyeTracking→PC,P4,-0.3738000000
+GC_filtered,p99_ms,EyeTracking→PC,P5,0.2333000000
+GC_filtered,p99_ms,EyeTracking→PC,P6,0.6300000000
+GC_filtered,p99_ms,EyeTracking→PC,P7,-1.5849000000
+GC_filtered,p99_ms,EyeTracking→PC,P8,7.1584000000
+GC_filtered,p99_ms,EyeTracking→PC,P9,0.0863000000
+GC_filtered,p99_ms,MoCap→PC,P1,-10.9382000000
+GC_filtered,p99_ms,MoCap→PC,P10,-0.0300000000
+GC_filtered,p99_ms,MoCap→PC,P2,-0.3300000000
+GC_filtered,p99_ms,MoCap→PC,P3,0.0400000000
+GC_filtered,p99_ms,MoCap→PC,P4,1.0745000000
+GC_filtered,p99_ms,MoCap→PC,P5,2.2141000000
+GC_filtered,p99_ms,MoCap→PC,P6,0.0800000000
+GC_filtered,p99_ms,MoCap→PC,P7,0.2564000000
+GC_filtered,p99_ms,MoCap→PC,P8,-10.8570000000
+GC_filtered,p99_ms,MoCap→PC,P9,-2.0781000000
+GC_filtered,p99_ms,MoCap→VR,P1,-11.5811000000
+GC_filtered,p99_ms,MoCap→VR,P10,-2.1123000000
+GC_filtered,p99_ms,MoCap→VR,P2,2.3100000000
+GC_filtered,p99_ms,MoCap→VR,P3,-0.2938000000
+GC_filtered,p99_ms,MoCap→VR,P4,-1.2120000000
+GC_filtered,p99_ms,MoCap→VR,P5,-0.1386000000
+GC_filtered,p99_ms,MoCap→VR,P6,1.7385000000
+GC_filtered,p99_ms,MoCap→VR,P7,-1.7368000000
+GC_filtered,p99_ms,MoCap→VR,P8,-4.2578000000
+GC_filtered,p99_ms,MoCap→VR,P9,-1.8984000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P1,0.8000000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P10,-4.2199000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P2,4.2186000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P3,4.3984000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P4,-5.9900000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P5,-2.7371000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P6,-0.0600000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P7,4.4600000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P8,-0.2200000000
+GC_filtered,p99_ms,PC<->VR 状态同步,P9,-2.7300000000
+GC_retained,median_ms,EyeTracking→PC,P1,0.1100000000
+GC_retained,median_ms,EyeTracking→PC,P10,-0.0300000000
+GC_retained,median_ms,EyeTracking→PC,P2,0.0400000000
+GC_retained,median_ms,EyeTracking→PC,P3,0.0800000000
+GC_retained,median_ms,EyeTracking→PC,P4,-0.1200000000
+GC_retained,median_ms,EyeTracking→PC,P5,0.0500000000
+GC_retained,median_ms,EyeTracking→PC,P6,0.0200000000
+GC_retained,median_ms,EyeTracking→PC,P7,0.1300000000
+GC_retained,median_ms,EyeTracking→PC,P8,0.0800000000
+GC_retained,median_ms,EyeTracking→PC,P9,-0.0700000000
+GC_retained,median_ms,MoCap→PC,P1,0.1600000000
+GC_retained,median_ms,MoCap→PC,P10,0.1500000000
+GC_retained,median_ms,MoCap→PC,P2,-0.2100000000
+GC_retained,median_ms,MoCap→PC,P3,0.2100000000
+GC_retained,median_ms,MoCap→PC,P4,0.9700000000
+GC_retained,median_ms,MoCap→PC,P5,2.1300000000
+GC_retained,median_ms,MoCap→PC,P6,-0.3000000000
+GC_retained,median_ms,MoCap→PC,P7,-0.1200000000
+GC_retained,median_ms,MoCap→PC,P8,-0.9100000000
+GC_retained,median_ms,MoCap→PC,P9,0.1100000000
+GC_retained,median_ms,MoCap→VR,P1,-0.3000000000
+GC_retained,median_ms,MoCap→VR,P10,0.0000000000
+GC_retained,median_ms,MoCap→VR,P2,-0.0400000000
+GC_retained,median_ms,MoCap→VR,P3,0.1100000000
+GC_retained,median_ms,MoCap→VR,P4,0.9200000000
+GC_retained,median_ms,MoCap→VR,P5,1.8300000000
+GC_retained,median_ms,MoCap→VR,P6,-0.2500000000
+GC_retained,median_ms,MoCap→VR,P7,-0.2500000000
+GC_retained,median_ms,MoCap→VR,P8,-0.9000000000
+GC_retained,median_ms,MoCap→VR,P9,0.1000000000
+GC_retained,median_ms,PC<->VR 状态同步,P1,-2.7000000000
+GC_retained,median_ms,PC<->VR 状态同步,P10,-2.7300000000
+GC_retained,median_ms,PC<->VR 状态同步,P2,2.5400000000
+GC_retained,median_ms,PC<->VR 状态同步,P3,0.1100000000
+GC_retained,median_ms,PC<->VR 状态同步,P4,-4.2100000000
+GC_retained,median_ms,PC<->VR 状态同步,P5,-0.9500000000
+GC_retained,median_ms,PC<->VR 状态同步,P6,-0.0200000000
+GC_retained,median_ms,PC<->VR 状态同步,P7,1.2300000000
+GC_retained,median_ms,PC<->VR 状态同步,P8,-2.2500000000
+GC_retained,median_ms,PC<->VR 状态同步,P9,-1.9300000000
+GC_retained,p99_ms,EyeTracking→PC,P1,0.7008000000
+GC_retained,p99_ms,EyeTracking→PC,P10,-16.4840000000
+GC_retained,p99_ms,EyeTracking→PC,P2,21.2920000000
+GC_retained,p99_ms,EyeTracking→PC,P3,-6.3201000000
+GC_retained,p99_ms,EyeTracking→PC,P4,-69.4057000000
+GC_retained,p99_ms,EyeTracking→PC,P5,-44.1747000000
+GC_retained,p99_ms,EyeTracking→PC,P6,38.1140000000
+GC_retained,p99_ms,EyeTracking→PC,P7,19.0012000000
+GC_retained,p99_ms,EyeTracking→PC,P8,15.1250000000
+GC_retained,p99_ms,EyeTracking→PC,P9,0.3384000000
+GC_retained,p99_ms,MoCap→PC,P1,-4.0672000000
+GC_retained,p99_ms,MoCap→PC,P10,-0.1684000000
+GC_retained,p99_ms,MoCap→PC,P2,18.7992000000
+GC_retained,p99_ms,MoCap→PC,P3,-21.8388000000
+GC_retained,p99_ms,MoCap→PC,P4,-65.3757000000
+GC_retained,p99_ms,MoCap→PC,P5,-43.6712000000
+GC_retained,p99_ms,MoCap→PC,P6,39.1460000000
+GC_retained,p99_ms,MoCap→PC,P7,-20.3814000000
+GC_retained,p99_ms,MoCap→PC,P8,11.0540000000
+GC_retained,p99_ms,MoCap→PC,P9,-0.7021000000
+GC_retained,p99_ms,MoCap→VR,P1,-11.5811000000
+GC_retained,p99_ms,MoCap→VR,P10,-2.1123000000
+GC_retained,p99_ms,MoCap→VR,P2,2.3100000000
+GC_retained,p99_ms,MoCap→VR,P3,-0.2938000000
+GC_retained,p99_ms,MoCap→VR,P4,-1.2120000000
+GC_retained,p99_ms,MoCap→VR,P5,-0.1386000000
+GC_retained,p99_ms,MoCap→VR,P6,1.7385000000
+GC_retained,p99_ms,MoCap→VR,P7,-1.7368000000
+GC_retained,p99_ms,MoCap→VR,P8,-4.2578000000
+GC_retained,p99_ms,MoCap→VR,P9,-1.8984000000
+GC_retained,p99_ms,PC<->VR 状态同步,P1,0.8000000000
+GC_retained,p99_ms,PC<->VR 状态同步,P10,-4.2199000000
+GC_retained,p99_ms,PC<->VR 状态同步,P2,4.2186000000
+GC_retained,p99_ms,PC<->VR 状态同步,P3,4.3984000000
+GC_retained,p99_ms,PC<->VR 状态同步,P4,-5.9900000000
+GC_retained,p99_ms,PC<->VR 状态同步,P5,-2.7371000000
+GC_retained,p99_ms,PC<->VR 状态同步,P6,-0.0600000000
+GC_retained,p99_ms,PC<->VR 状态同步,P7,4.4600000000
+GC_retained,p99_ms,PC<->VR 状态同步,P8,-0.2200000000
+GC_retained,p99_ms,PC<->VR 状态同步,P9,-2.7300000000

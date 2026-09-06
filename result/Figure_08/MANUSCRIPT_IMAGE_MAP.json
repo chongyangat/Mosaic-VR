@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 8,
+    "version": "original_v2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from original_v2 DOCX; not a newly rendered figure.",
+    "origin_document": "C:\\Users\\zhouc\\Nutstore\\2\\VR工作站 (2)\\MOSAIC-VR\\project_mosaic_vr\\submission\\MOSAIC_VR_manusripts_JK_cw_v2.docx",
+    "origin_member": "word/media/image8.png",
+    "caption": "Figure 8. Time-resolved latency profiles for four monitored runtime paths during the Street marker-only baseline configuration. Panel definitions, the 300-s analysis window, time binning, participant representation, and GC-handling rules are identical to Figure 7, enabling direct descriptive comparison between scenes ().",
+    "sha256": "029968a09e42f12683bef06984f03a3da0c50e85de9bc829563e0fdef2fcae07",
+    "bytes": 851298,
+    "pixels": [
+      4233,
+      3195
+    ]
+  },
+  {
+    "figure": 8,
+    "version": "revision_R2",
+    "role": "manuscript_embedded",
+    "reason": "Exact image bytes from revision_R2 DOCX; not a newly rendered figure.",
+    "origin_document": "D:\\vrcontent\\MOSAIC-VR\\submission_review_round2_20260906\\MOSAIC_VR_round2_reading.docx",
+    "origin_member": "word/media/image8.png",
+    "caption": "Figure 8. Time-resolved latency profiles for four monitored runtime paths during the Street marker-only baseline configuration. Panel definitions, the 300-s analysis window, time binning, participant representation, and GC-handling rules are identical to Figure 7, enabling direct descriptive comparison between scenes ().",
+    "sha256": "029968a09e42f12683bef06984f03a3da0c50e85de9bc829563e0fdef2fcae07",
+    "bytes": 851298,
+    "pixels": [
+      4233,
+      3195
+    ]
+  }
+]
