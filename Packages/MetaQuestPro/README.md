@@ -1,2 +1,5 @@
-Meta Quest Pro 设备的凝视点获取、绘制、精度测试、UDP传输功能
-导入前确保已经配置好Meta XR SDK
+# Meta Quest Pro Support
+
+This package provides gaze acquisition, gaze-point visualization, accuracy testing, and UDP transport for Meta Quest Pro devices.
+
+Configure the Meta XR SDK in the Unity project before importing or using this package.

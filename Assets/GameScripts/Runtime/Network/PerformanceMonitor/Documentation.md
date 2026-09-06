@@ -1,277 +1,244 @@
-# 网络性能监控系统使用文档
+# Network Performance Monitor
 
-## 系统概述
+## Overview
 
-网络性能监控系统是一个专为Unity项目设计的网络性能分析工具，基于Mirror网络库，提供实时的网络延时、抖动和丢包数据监控。
+`NetworkPerformanceMonitor` is a Unity/Mirror monitoring component for per-link latency, jitter, packet loss, frame timing, and clock-synchronization metadata. It maintains independent history buffers for multiple logical links, publishes updates to runtime UI, and can record or export samples as CSV.
 
-### 主要功能
+> [!NOTE]
+> This document describes the API present in this source snapshot. The public repository omits scenes and required third-party/local packages, so its examples are for code reference and for integration into an authorized complete project.
 
-- **实时监控**：实时显示网络延时、抖动、丢包率和带宽使用
-- **历史分析**：存储和分析历史性能数据
-- **数据导出**：支持将性能数据导出为CSV格式
-- **异常检测**：自动检测网络性能异常
-- **告警系统**：基于阈值的性能告警和趋势分析
-- **网络质量评估**：综合评估网络质量并提供优化建议
-- **MoCap监控**：专门的动作捕捉系统网络监控
-- **事件同步监控**：关键事件的同步延迟监控
-- **可视化界面**：直观的UI显示和多类型图表
-- **低性能开销**：优化的算法确保对游戏性能影响最小
+## Implemented capabilities
 
-## 安装方法
+- Per-link sampling and independent circular history buffers.
+- Current, recent, ranged, and aggregated performance queries.
+- Latency distribution statistics: minimum, maximum, median, 95th percentile, and 99th percentile.
+- Packet-sequence tracking and packet-loss estimates.
+- Eye-tracking and platform-specific MoCap measurement entry points.
+- Clock-synchronization validity, offset, RTT, age, uncertainty, and sample-count metadata.
+- Link activation and priority controls.
+- CSV export and continuous recording.
+- Runtime UI for latency, jitter, packet loss, distributions, frame timing, link selection, priority, and charts.
+- Optional garbage-collection monitoring.
 
-### 方法一：自动安装
+## Setup
 
-1. 在Unity场景中选择一个GameObject
-2. 添加`NetworkPerformanceIntegration`脚本
-3. 在Inspector面板中点击"Setup Network Performance Monitor"
-4. 选择是否启用UI显示
+### Automatic setup
 
-### 方法二：手动安装
-
-1. 创建一个空GameObject，命名为"NetworkPerformanceMonitor"
-2. 添加`NetworkPerformanceMonitor`组件
-3. （可选）创建UI画布，添加`NetworkPerformanceUI`组件
-4. 在`NetworkPerformanceUI`组件中设置相关UI元素
-
-## 配置选项
-
-### NetworkPerformanceMonitor配置
-
-| 选项 | 描述 | 默认值 |
-|------|------|--------|
-| Enabled | 是否启用网络性能监控 | true |
-| Update Interval | 数据更新间隔（秒） | 1.0 |
-| History Duration | 历史数据存储时间（秒） | 300.0 |
-| Latency Alert Threshold | 延迟告警阈值（毫秒） | 200.0 |
-| Jitter Alert Threshold | 抖动告警阈值（毫秒） | 50.0 |
-| Packet Loss Alert Threshold | 丢包率告警阈值（百分比） | 5.0 |
-| Frame Loss Alert Threshold | 帧丢失率告警阈值（百分比） | 10.0 |
-| Event Sync Alert Threshold | 事件同步延迟告警阈值（毫秒） | 200.0 |
-
-### NetworkPerformanceUI配置
-
-| 选项 | 描述 | 默认值 |
-|------|------|--------|
-| Enabled | 是否启用UI显示 | true |
-| Update Interval | UI更新间隔（秒） | 0.1 |
-| Chart Time Range | 图表显示时间范围（秒） | 60.0 |
-| Latency Text | 延时显示文本组件 | - |
-| Jitter Text | 抖动显示文本组件 | - |
-| Packet Loss Text | 丢包率显示文本组件 | - |
-| Bandwidth Text | 带宽显示文本组件 | - |
-| Chart Container | 图表容器RectTransform | - |
-| Chart Prefab | 图表点预制体 | - |
-
-## 使用方法
-
-### 基本使用
-
-1. **自动集成**：
-   ```csharp
-   // 在NetworkManager的Start方法中添加
-   void Start()
-   {
-       NetworkPerformanceIntegration.SetupNetworkPerformanceMonitor(this, true);
-   }
-   ```
-
-2. **手动集成**：
-   ```csharp
-   // 获取监控器实例
-   NetworkPerformanceMonitor monitor = NetworkPerformanceMonitor.Instance;
-   
-   // 订阅性能更新事件
-   monitor.OnPerformanceUpdated += OnPerformanceUpdated;
-   
-   // 获取最新性能数据
-   var data = monitor.GetLatestData();
-   Debug.Log($"Latency: {data.latency}ms, Jitter: {data.jitter}ms, Loss: {data.packetLoss}%");
-   
-   // 导出数据
-   monitor.ExportData(Application.persistentDataPath + "/network_performance.csv");
-   ```
-
-### 自定义INetwork实现集成
+Provide an existing Mirror `NetworkManager` to the integration helper:
 
 ```csharp
-// 包装自定义网络实现
-INetwork myNetwork = new MyNetworkImplementation();
-INetwork wrappedNetwork = NetworkPerformanceIntegration.WrapNetworkWithPerformanceMonitor(myNetwork);
+using GameMain;
+using Mirror;
 
-// 使用包装后的网络
-wrappedNetwork.Send("Hello world");
-wrappedNetwork.OnReceive += OnNetworkReceive;
-```
-
-### 性能测试
-
-1. 在场景中添加`PerformanceTest`组件
-2. 配置测试参数：
-   - Test Duration：测试持续时间
-   - Message Rate：消息频率
-   - Message Size：消息大小
-3. 运行场景，查看控制台输出的测试结果
-4. 测试数据会自动导出到PersistentDataPath
-
-## 性能数据结构
-
-```csharp
-public struct PerformanceData
+public class MonitorBootstrap : MonoBehaviour
 {
-    public float timestamp;      // 时间戳
-    public float latency;        // 延时（毫秒）
-    public float jitter;         // 抖动（毫秒）
-    public float packetLoss;     // 丢包率（百分比）
-    public long bytesSent;       // 发送字节数
-    public long bytesReceived;   // 接收字节数
-    public int packetsSent;      // 发送数据包数
-    public int packetsReceived;  // 接收数据包数
-    
-    // 延迟分布统计
-    public float latencyMin;     // 最小延迟
-    public float latencyMax;     // 最大延迟
-    public float latencyMedian;  // 中位延迟
-    public float latency95th;    // 95百分位延迟
-    public float latency99th;    // 99百分位延迟
-    
-    // MoCap相关
-    public float frameArrivalDelay; // 帧到达延迟
-    public float frameInterval;     // 帧间隔
-    public float frameLossRate;     // 丢帧率
-    public int totalFrames;         // 总帧数
-    public int lostFrames;          // 丢失帧数
-    
-    // 事件同步
-    public float eventSyncDelay;    // 事件同步延迟
-    public int eventCount;          // 事件数量
+    [SerializeField] private NetworkManager networkManager;
+
+    private void Start()
+    {
+        NetworkPerformanceMonitor monitor =
+            NetworkPerformanceIntegration.SetupNetworkPerformanceMonitor(
+                networkManager,
+                enableUI: true);
+
+        monitor.OnPerformanceUpdated += HandlePerformanceUpdated;
+    }
+
+    private void HandlePerformanceUpdated(
+        NetworkPerformanceMonitor.PerformanceData data)
+    {
+        Debug.Log(
+            $"[{data.link}] latency={data.latency:F1} ms, " +
+            $"jitter={data.jitter:F1} ms, loss={data.packetLoss:F1}%");
+    }
 }
 ```
 
-## 公共API
+`SetupNetworkPerformanceMonitor` creates a persistent monitor `GameObject`. When `enableUI` is true, it also creates the runtime performance UI. It returns the existing singleton if one is already active.
 
-### NetworkPerformanceMonitor
+### Manual setup
 
-| 方法 | 描述 | 参数 | 返回值 |
-|------|------|------|--------|
-| GetHistoryData() | 获取所有历史数据 | 无 | List<PerformanceData> |
-| GetHistoryData(startTime, endTime) | 获取指定时间范围的历史数据 | startTime: 开始时间<br>endTime: 结束时间 | List<PerformanceData> |
-| GetLatestData() | 获取最新性能数据 | 无 | PerformanceData |
-| GetAverageData(timeWindow) | 获取指定时间窗口的平均性能数据 | timeWindow: 时间窗口（秒） | PerformanceData |
-| GetTrendData(metric, timeWindow) | 获取指定指标的趋势数据 | metric: 指标名称<br>timeWindow: 时间窗口（秒） | float[] |
-| IsAnomalyDetected(threshold) | 检测是否有性能异常 | threshold: 异常阈值 | bool |
-| ExportData(filePath) | 导出所有性能数据 | filePath: 文件路径 | void |
-| ExportData(filePath, startTime, endTime) | 导出指定时间范围的性能数据 | filePath: 文件路径<br>startTime: 开始时间<br>endTime: 结束时间 | void |
-| OnMoCapFrameReceived(sequence, timestamp) | 处理MoCap帧到达 | sequence: 帧序列号<br>timestamp: 帧时间戳 | void |
-| GetFrameLossPatterns() | 获取丢帧模式统计 | 无 | int[] |
-| GetConsecutiveFrameLoss() | 获取连续丢帧数 | 无 | int |
-| GetLastFrameLossTime() | 获取上次丢帧时间 | 无 | float |
-| MarkEventStart(eventId) | 标记事件开始 | eventId: 事件ID | void |
-| MarkEventEnd(eventId) | 标记事件结束并计算同步延迟 | eventId: 事件ID | float |
-| GetEventSyncDelays() | 获取事件同步延迟历史 | 无 | List<float> |
-| GetAverageEventSyncDelay() | 获取平均事件同步延迟 | 无 | float |
-| AssessNetworkQuality() | 评估网络质量 | 无 | NetworkQualityAssessment |
-| GetNetworkQualitySummary() | 获取网络质量评估摘要 | 无 | string |
+1. Create a `GameObject` named `NetworkPerformanceMonitor`.
+2. Add the `NetworkPerformanceMonitor` component.
+3. Optionally add and wire a `NetworkPerformanceUI` canvas.
+4. Initialize logical links before sampling them, or let the monitor initialize a link when it is first selected.
 
-### 事件
+## Monitor configuration
 
-| 事件 | 描述 | 参数 |
-|------|------|------|
-| OnPerformanceUpdated | 性能数据更新时触发 | PerformanceData |
-| OnAlertTriggered | 告警触发时触发 | AlertData |
+| Field | Purpose | Default |
+| --- | --- | --- |
+| Enabled | Enables periodic monitoring. | `true` |
+| Sample Interval | Sampling interval for ordinary links. The PC↔VR state-sync link follows the Mirror send interval. | `1.0 s` |
+| Buffer Size | Maximum samples retained per link in the circular buffer. | `54,000` |
+| Jitter Window Size | Number of latency samples used for the moving jitter calculation. | `20` |
+| Report Interval | Interval used when the VR side reports performance data. | `1.0 s` |
+| Enable GC Monitoring | Enables garbage-collection monitoring. | `true` |
+| `IsShowLog` | Enables detailed diagnostic logging. | `false` |
 
-### NetworkPerformanceIntegration
+`NegativeLatencyMode` has two values:
 
-| 方法 | 描述 | 参数 | 返回值 |
-|------|------|------|--------|
-| SetupNetworkPerformanceMonitor(networkManager, enableUI) | 自动设置网络性能监控 | networkManager: 网络管理器<br>enableUI: 是否启用UI | NetworkPerformanceMonitor |
-| SetupMoCapMonitoring(monitor, mocapSystem) | 设置MoCap监控 | monitor: 网络性能监控器<br>mocapSystem: MoCap系统实例 | void |
-| ProcessMoCapFrame(monitor, sequence, timestamp, dataSize) | 处理MoCap帧数据 | monitor: 网络性能监控器<br>sequence: 帧序列号<br>timestamp: 帧时间戳<br>dataSize: 数据大小 | void |
-| SimulateMoCapData(monitor, frameRate, duration) | 模拟MoCap数据（用于测试） | monitor: 网络性能监控器<br>frameRate: 帧率<br>duration: 持续时间 | void |
-| MarkEventStart(eventId) | 标记事件开始 | eventId: 事件ID | void |
-| MarkEventEnd(eventId) | 标记事件结束 | eventId: 事件ID | float |
-| WrapNetworkWithPerformanceMonitor(networkImplementation) | 为自定义INetwork实现添加性能监控 | networkImplementation: 自定义网络实现 | INetwork |
+- `Raw`: preserves negative directional latency values so clock-offset direction remains visible.
+- `Processed`: applies an absolute value instead of emitting a negative value or a false zero.
 
-## 性能调优建议
+## Common usage
 
-### 减少性能开销
+### Select and sample a link
 
-1. **调整更新间隔**：根据游戏需求调整`Update Interval`，减少高频更新
-2. **限制历史数据**：根据内存情况调整`History Duration`
-3. **禁用UI**：在发布版本中可以禁用UI显示
-4. **选择性监控**：只在需要时启用监控
+```csharp
+NetworkPerformanceMonitor monitor = NetworkPerformanceMonitor.Instance;
 
-### 网络优化建议
+monitor.InitializeLink("EyeTracking");
+monitor.SetLinkPriority(
+    "EyeTracking",
+    NetworkPerformanceMonitor.LinkPriority.High);
+monitor.SetCurrentLink("EyeTracking");
+monitor.SamplePerformanceData("EyeTracking");
+```
 
-1. **减少消息频率**：合并消息，减少网络传输次数
-2. **优化消息大小**：压缩数据，减少传输字节数
-3. **使用合适的传输层**：根据游戏类型选择合适的Transport
-4. **实现消息优先级**：重要消息使用可靠通道，非重要消息使用不可靠通道
+### Query data
 
-### 异常处理
+```csharp
+var latest = monitor.GetLatestData("EyeTracking");
+var recent = monitor.GetRecentHistoryData(120, "EyeTracking");
+var range = monitor.GetHistoryDataInRange(
+    startTime: 10.0f,
+    endTime: 30.0f,
+    link: "EyeTracking");
+var average = monitor.GetAverageData(60.0f, "EyeTracking");
+```
 
-1. **设置合理的异常阈值**：根据游戏类型设置合适的异常检测阈值
-2. **实现自动重连**：当检测到网络异常时自动尝试重连
-3. **提供用户反馈**：当网络性能下降时向用户显示警告
+### Export and record
 
-## 常见问题
+```csharp
+string directory = Application.persistentDataPath;
 
-### Q: 监控系统对游戏性能有影响吗？
+monitor.ExportToCsv(
+    System.IO.Path.Combine(directory, "eye_tracking.csv"),
+    "EyeTracking");
 
-A: 监控系统经过优化，使用固定大小的数组和高效的算法，对游戏性能影响很小（CPU占用<1%）。
+monitor.StartRecording(
+    System.IO.Path.Combine(directory, "network_session.csv"));
 
-### Q: 如何处理大量历史数据？
+// Run the monitored session here.
 
-A: 监控系统使用循环缓冲区存储历史数据，自动覆盖旧数据，避免内存持续增长。
+string recordedPath = monitor.StopRecording();
+Debug.Log($"Recording written to: {recordedPath}");
+```
 
-### Q: 可以在发布版本中使用吗？
+## PerformanceData
 
-A: 可以，但建议在发布版本中禁用UI显示，只保留核心监控功能。
+Every sample uses `NetworkPerformanceMonitor.PerformanceData`.
 
-### Q: 支持哪些网络库？
+| Field | Type | Meaning |
+| --- | --- | --- |
+| `sampleTimestamp` | `string` | Synchronized collection time formatted for export. |
+| `sentTimestamp` | `ulong` | Sender Unix timestamp in milliseconds. |
+| `latency` | `float` | Measured latency in milliseconds. |
+| `jitter` | `float` | Jitter in milliseconds. |
+| `packetLoss` | `float` | Packet-loss percentage from 0 to 100. |
+| `latencyMin` | `float` | Minimum latency in the distribution. |
+| `latencyMax` | `float` | Maximum latency in the distribution. |
+| `latencyMedian` | `float` | Median latency. |
+| `latency95th` | `float` | 95th-percentile latency. |
+| `latency99th` | `float` | 99th-percentile latency. |
+| `frameArrivalDelay` | `float` | Frame arrival delay. |
+| `frameInterval` | `float` | Frame interval in milliseconds. |
+| `frameLossRate` | `float` | Frame-loss rate. |
+| `sequenceNumber` | `uint` | Current packet or frame sequence number. |
+| `link` | `string` | Logical link identifier. |
+| `measurementType` | `string` | Measurement semantics, such as RTT or estimated one-way delay. |
+| `syncValid` | `bool` | Whether the directional sample had a fresh, stable clock estimate. |
+| `syncState` | `string` | Clock-synchronization state at collection time. |
+| `clockOffsetMs` | `double` | Estimated remote-minus-local clock offset in milliseconds. |
+| `syncRttMs` | `double` | Network-only RTT of the selected four-timestamp synchronization sample. |
+| `syncAgeMs` | `double` | Age of the latest accepted synchronization sample. |
+| `offsetUncertaintyMs` | `double` | Upper-bound estimate of offset ambiguity caused by path asymmetry. |
+| `syncSampleCount` | `int` | Accepted synchronization samples in the current session. |
 
-A: 主要支持Mirror网络库，同时提供了对自定义INetwork实现的包装支持。
+## Public API reference
 
-## 示例场景
+Optional `link` arguments use the current link when omitted or `null`.
 
-### 场景1：基本监控
+### State and events
 
-1. 创建一个新场景
-2. 添加NetworkManager组件
-3. 添加NetworkPerformanceIntegration组件
-4. 运行场景，查看UI显示的网络性能数据
+| Member | Description |
+| --- | --- |
+| `Instance` | Active singleton instance. |
+| `IsEnabled` | Gets or sets periodic monitoring. |
+| `CurrentLink` | Gets or sets the selected logical link. |
+| `AllLinks` | Lists initialized links. |
+| `IsRecording` | Reports whether continuous recording is active. |
+| `NegativeLatencyMode` | Returns the configured negative-latency behavior. |
+| `StateSyncSampleInterval` | Returns the sampling interval used for PC↔VR state synchronization. |
+| `OnPerformanceUpdated` | The only monitor event; publishes a `PerformanceData` sample. |
 
-### 场景2：性能测试
+### Link management and sampling
 
-1. 创建一个新场景
-2. 添加NetworkManager组件
-3. 添加PerformanceTest组件
-4. 配置测试参数
-5. 运行场景，查看控制台输出的测试结果
+| Method | Description |
+| --- | --- |
+| `InitializeLink(string)` | Creates storage and state for a logical link. |
+| `SetCurrentLink(string)` | Selects the active link. |
+| `ResetStatistics(string link = null)` | Clears statistics for one link or the current link. |
+| `SetLinkActive(string, bool)` | Enables or disables a link. |
+| `IsLinkActive(string)` | Returns a link's active state. |
+| `UpdateLinkActivity(string)` | Marks recent activity for a link. |
+| `SetLinkPriority(string, LinkPriority)` | Assigns `Low`, `Medium`, `High`, or `Critical` priority. |
+| `GetLinkPriority(string)` | Returns the assigned priority. |
+| `GetLinksByPriority()` | Returns links ordered by priority. |
+| `SampleAllLinksByPriority()` | Samples enabled links in priority order. |
+| `SamplePerformanceData(string)` | Produces a sample for one link. |
 
-### 场景3：自定义集成
+### History and aggregation
 
-1. 创建一个实现INetwork接口的自定义网络类
-2. 使用NetworkPerformanceIntegration.WrapNetworkWithPerformanceMonitor包装
-3. 使用包装后的网络实例进行通信
-4. 查看性能监控数据
+| Method | Description |
+| --- | --- |
+| `GetLatestData(string link = null)` | Returns the latest sample. |
+| `GetAllHistoryData(string link = null)` | Returns all retained samples. |
+| `GetHistoryDataInRange(float, float, string link = null)` | Returns samples in a time range. |
+| `GetHistoryData(float, float, string link = null)` | Alias for the ranged history query. |
+| `GetRecentHistoryData(int, string link = null)` | Returns the most recent sample count. |
+| `GetHistoryCount(string link = null)` | Returns the number of retained samples. |
+| `GetAverageLatency/Jitter/PacketLoss(string link = null)` | Returns one aggregate metric. |
+| `GetAverageData(float duration, string link = null)` | Aggregates one link over a duration. |
+| `GetAllLinksAggregatedData(float duration)` | Aggregates every link over a duration. |
+| `GetAllLinksLatestData()` | Returns the latest sample for every link. |
 
-## 版本历史
+### Export and recording
 
-### v1.1.0
-- 增强异常检测和告警功能
-- 完善MoCap监控的具体集成实现
-- 增强数据可视化和分析能力
-- 添加网络质量评估和自动优化建议
-- 优化性能和内存使用
-- 完善文档和示例代码
+| Method | Description |
+| --- | --- |
+| `ExportData(string, string link = null)` | Compatibility wrapper that exports link history. |
+| `ExportToCsv(string, string link = null)` | Exports all retained data for a link. |
+| `ExportToCsv(string, float, float, string link = null)` | Exports a time range. |
+| `ExportAllLinksToCsv(string)` | Exports every initialized link. |
+| `StartRecording(string filePath = null)` | Begins continuous CSV recording. |
+| `StopRecording()` | Stops recording and returns the output path. |
 
-### v1.0.0
-- 初始版本
-- 实现基本的网络性能监控功能
-- 支持Mirror网络库
-- 提供实时UI显示
-- 支持数据导出
+### Measurement entry points
 
-## 联系我们
+| Method | Description |
+| --- | --- |
+| `UpdateSequenceNumber(uint, string link = null)` | Updates sequence state for packet-loss calculation. |
+| `RecordPacketReceived(uint, string link = null)` | Records packet arrival for a link. |
+| `OnStateSyncData()` | Records state-synchronization activity. |
+| `OnEyeTrackingDataReceived(uint, ulong[, double])` | Records an eye-tracking sample using sender and optional arrival timestamps. |
+| `OnMoCapToPCFrameReceived(uint, ulong, float)` | Records a MoCap-to-PC sample in a `MANAGER_SERVER` build. |
+| `OnMoCapToVRFrameReceived(uint, ulong, float)` | Records a MoCap-to-VR sample in a non-manager build. |
+| `GetSyncedUnixTimeMilliseconds()` | Returns synchronized Unix time as `ulong`. |
+| `GetSyncedUnixTimeMillisecondsD()` | Returns synchronized Unix time as `double`. |
 
-如有任何问题或建议，请联系开发团队。
+## Current implementation limits
+
+- `MarkEventStart` currently changes/selects the event link; `MarkEventEnd` is a stub that returns `0f`. There is no event-delay history API in this snapshot.
+- `SetupMoCapMonitoring` is an integration placeholder. The legacy `OnMoCapFrameReceived` overloads log a warning and do not create valid measurements; use the platform-specific timestamped MoCap methods above.
+- `ProcessMoCapFrame` and `SimulateMoCapData` call those legacy MoCap overloads and therefore do not generate real performance metrics in this snapshot.
+- `NetworkPerformanceWrapper` forwards `INetwork.Send` and `OnReceive`; it does not itself measure message performance.
+- There is no alert-threshold system, anomaly event, bandwidth counter, trend API, network-quality assessment API, or automatic optimization API in the checked-in implementation.
+
+## Performance guidance
+
+- Increase the ordinary-link sample interval when high-frequency updates are unnecessary.
+- Reduce the per-link buffer size if the default history capacity is excessive for the target device.
+- Disable or simplify the runtime UI in production builds that do not need live charts.
+- Export or stop recording before terminating a session so buffered data is written to disk.
+- Validate clock synchronization before interpreting estimated one-way latency; use `syncValid`, `syncState`, `syncAgeMs`, and `offsetUncertaintyMs` together.

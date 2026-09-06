@@ -124,3 +124,10 @@ Desktop.ini
 *.7z
 *.rar
 *.docx
+
+# Local source bundle used to curate the public README gallery. It includes a
+# machine-specific mapping file and duplicate working copies of the screenshots.
+/source_675a9d1e3b/
+
+# Curated documentation screenshots are intentionally tracked.
+!/docs/images/workflow/*.png

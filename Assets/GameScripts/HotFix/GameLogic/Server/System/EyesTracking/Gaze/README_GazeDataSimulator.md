@@ -1,115 +1,113 @@
-# GazeDataSimulator 使用说明
+# GazeDataSimulator Guide
 
-## 概述
+## Overview
 
-GazeDataSimulator 是一个用于模拟发送EyeGaze数据的工具，通过UDP协议将模拟的凝视点数据发送到指定的IP和端口，用于测试接收模块。
+`GazeDataSimulator` generates synthetic `EyeGaze` samples and sends them to a configured IP address and port over UDP. It is intended for development and receiver testing when live headset gaze data is unavailable.
 
-## 功能特性
+The implementation is compiled only when `GAZE_DATA_SIMULATOR` is defined. In the current application registration path, it is created only for the `MANAGER_SERVER` build.
 
-- 使用 GAZE_DATA_SIMULATOR 宏控制开关
-- 支持设置发送间隔、目标IP和端口
-- 可分别开关左眼、右眼和双眼数据发送
-- 支持随机生成凝视点数据
-- 提供单例模式，方便全局访问
-- 支持测试发送单次数据
-- 包含编辑器扩展，提供可视化配置界面
-- 支持密集点生成功能，可自动在稀疏点和密集点模式之间切换
-- 可配置稀疏点和密集点的持续时间范围
-- 可配置密集点发送间隔
-- 支持配置密集点位置密集度，控制生成点的聚集程度
-- 可配置密集点中心位置的随机范围
-- 支持限制生成点在当前相机的可视范围内
-- 提供日志输出选项，可控制是否输出日志
-- 支持设置最小Z轴值，控制生成点的最小深度
+## Features
 
-## 集成方法
+- Compile-time control through `GAZE_DATA_SIMULATOR`.
+- Configurable send interval, target IP address, and target port.
+- Independent left-eye, right-eye, and binocular validity controls.
+- Randomized gaze-point generation.
+- Singleton access and automatic `GameObject` creation.
+- Single-sample test transmission through code.
+- Optional alternating sparse-point and dense-point modes.
+- Configurable sparse/dense durations and dense-mode send interval.
+- Configurable dense-point clustering and randomized cluster center.
+- Optional restriction to the current camera frustum.
+- Optional logging and configurable minimum Z depth.
 
-### 在GameApp中初始化
+## Enable and initialize
 
-可以在GameApp的InitSystem方法中添加以下代码来初始化GazeDataSimulator：
+Add `GAZE_DATA_SIMULATOR` to the relevant Unity scripting define symbols. The current `GameApp_RegisterSystem.cs` registration is equivalent to:
 
 ```csharp
-#if GAZE_DATA_SIMULATOR
-    // 初始化凝视点数据模拟器
-    GazeDataSimulator.Create();
-    Debug.Log("GameApp: 初始化GazeDataSimulator");
+#if MANAGER_SERVER && GAZE_DATA_SIMULATOR
+GazeDataSimulator.Create();
+Log.Debug("GameApp: initialized GazeDataSimulator");
 #endif
 ```
 
-### 手动创建和配置
+The simulator can also be created and configured manually:
 
 ```csharp
 #if GAZE_DATA_SIMULATOR
-    // 创建模拟器实例
-    GazeDataSimulator simulator = GazeDataSimulator.Create(0.1f, "127.0.0.1", 8081);
-    
-    // 设置发送间隔
-    simulator.SetSendInterval(0.5f);
-    
-    // 设置目标IP和端口
-    simulator.SetTarget("192.168.1.100", 8081);
-    
-    // 测试发送单次数据
-    simulator.TestSendSingleData();
+GazeDataSimulator simulator = GazeDataSimulator.Create(
+    sendInterval: 0.1f,
+    targetIP: "127.0.0.1",
+    targetPort: 8082);
+
+simulator.SetSendInterval(0.5f);
+simulator.SetTarget("192.168.1.100", 8082);
+simulator.TestSendSingleData();
 #endif
 ```
 
-## 使用方法
+`Create()` defaults to a `0.01` second interval, `127.0.0.1`, and port `8082`. A component added through the Unity Inspector has a serialized default interval of `0.5` seconds. Always configure the sender to match the receiver actually used by the scene or build.
 
-### 编辑器配置
+## Inspector configuration
 
-1. 在Unity编辑器中，选择包含GazeDataSimulator组件的GameObject
-2. 在Inspector面板中配置以下参数：
-   - 发送间隔：发送数据的时间间隔（秒）
-   - 目标IP：接收数据的IP地址
-   - 目标端口：接收数据的端口号
-   - 日志输出：是否启用日志输出
-   - 左眼数据：是否发送左眼凝视点数据
-   - 右眼数据：是否发送右眼凝视点数据
-   - 双眼数据：是否发送双眼凝视点数据
-   - X轴随机范围：凝视点数据X轴的随机范围
-   - Y轴随机范围：凝视点数据Y轴的随机范围
-   - 最小Z轴值：生成点的最小Z轴值
-   - Z轴随机范围：凝视点数据Z轴的随机范围
-   - 限制在相机可视范围：是否限制生成的点在当前相机的可视范围内
-   - 启用密集点：是否启用密集点生成功能
-   - 稀疏点最小持续时间：稀疏点模式的最小持续时间（秒）
-   - 稀疏点最大持续时间：稀疏点模式的最大持续时间（秒）
-   - 密集点最小持续时间：密集点模式的最小持续时间（秒）
-   - 密集点最大持续时间：密集点模式的最大持续时间（秒）
-   - 密集点发送间隔：密集点模式下的数据发送间隔（秒）
-   - 位置密集度系数：密集点模式下位置的密集程度，值越小越密集
-   - 密集点中心位置X轴随机范围：密集点中心位置X轴的随机范围
-   - 密集点中心位置Y轴随机范围：密集点中心位置Y轴的随机范围
-   - 密集点中心位置Z轴随机范围：密集点中心位置Z轴的随机范围
+Select the `GameObject` containing `GazeDataSimulator` and configure the following fields in the Inspector:
 
-3. 使用测试按钮：
-   - 发送一次：发送单次测试数据
-   - 重置配置：恢复默认配置
+### Basic settings
 
-### 运行时控制
+| Setting | Description | Serialized default |
+| --- | --- | --- |
+| Send Interval | Seconds between samples in sparse mode. Values passed to `SetSendInterval` are clamped to at least `0.01`. | `0.5` |
+| Target IP | Receiver IP address. | `127.0.0.1` |
+| Target Port | Receiver UDP port. | `8082` |
+| Enable Logging | Writes transmission and mode-change messages to the Unity log. | Enabled |
+
+### Eye-data settings
+
+| Setting | Description | Serialized default |
+| --- | --- | --- |
+| Send Left Eye Data | Marks and populates the left-eye sample. | Enabled |
+| Send Right Eye Data | Marks and populates the right-eye sample. | Enabled |
+| Send Double Eye Data | Calculates and sends a binocular sample. | Enabled |
+
+### Position generation
+
+| Setting | Description | Serialized default |
+| --- | --- | --- |
+| Limit To Camera View | Restricts generated points to the current camera's visible region. | Disabled |
+| Random Range X | Random X range. | `1.0` |
+| Random Range Y | Random Y range. | `1.0` |
+| Minimum Z Value | Minimum generated depth. | `0.5` |
+| Random Range Z | Random Z range. | `3.0` |
+
+### Dense-point mode
+
+| Setting | Description | Serialized default |
+| --- | --- | --- |
+| Enable Dense Points | Alternates between sparse and clustered dense samples. | Disabled |
+| Sparse Duration Min/Max | Duration range for sparse mode. | `1.0` / `5.0` seconds |
+| Dense Duration Min/Max | Duration range for dense mode. | `1.0` / `5.0` seconds |
+| Dense Send Interval | Send interval while dense mode is active. | `0.05` seconds |
+| Dense Position Factor | Cluster spread; smaller values create tighter clusters. | `0.3` |
+| Dense Center Range X/Y/Z | Random range used to choose the cluster center. | `1.0` / `1.0` / `3.0` |
+
+## Runtime control
 
 ```csharp
 #if GAZE_DATA_SIMULATOR
-    // 获取模拟器实例
+if (GazeDataSimulator.HasInstance)
+{
     GazeDataSimulator simulator = GazeDataSimulator.Instance;
-    
-    // 检查实例是否存在
-    if (GazeDataSimulator.HasInstance)
-    {
-        // 控制发送数据
-        simulator.enabled = true; // 开始发送
-        simulator.enabled = false; // 停止发送
-        
-        // 测试发送
-        simulator.TestSendSingleData();
-    }
+
+    simulator.enabled = true;  // Start automatic transmission.
+    simulator.TestSendSingleData();
+    simulator.enabled = false; // Stop automatic transmission.
+}
 #endif
 ```
 
-## 数据格式
+## UDP payload
 
-模拟器发送的JSON数据格式示例：
+The simulator serializes `GazeNetData` as JSON. A representative payload is:
 
 ```json
 {
@@ -123,25 +121,17 @@ GazeDataSimulator 是一个用于模拟发送EyeGaze数据的工具，通过UDP�
 }
 ```
 
-## 宏控制
+## Performance guidance
 
-在PlayerSettings或脚本中定义GAZE_DATA_SIMULATOR宏来启用模拟器：
+- Keep the normal send interval at or above `0.01` seconds.
+- Avoid unnecessarily large random ranges.
+- Disable the component when simulation is not required.
+- Do not set the dense-mode interval so low that it saturates the receiver or local network.
+- On lower-performance devices, reduce dense-mode frequency or disable dense-point generation.
 
-```csharp
-#define GAZE_DATA_SIMULATOR
-```
+## Notes
 
-## 性能考虑
-
-- 发送间隔建议设置在0.01秒以上，避免发送过于频繁影响性能
-- 随机范围不宜过大，建议保持在1.0左右
-- 在不需要时可以禁用模拟器组件以节省资源
-- 启用密集点功能时，密集点发送间隔建议不要设置太小，避免网络拥塞
-- 密集点功能可能会增加CPU和网络负载，建议根据实际测试情况调整参数
-- 在低性能设备上使用时，可以考虑降低密集点发送频率或禁用密集点功能
-
-## 注意事项
-
-- 确保UDPManager已正确配置并运行
-- 目标IP和端口需要与接收端一致
-- 在生产环境中应关闭GAZE_DATA_SIMULATOR宏
+- `UDPManager` must be initialized and available before a sample can be sent.
+- The target IP and port must match the receiver configuration.
+- Do not define `GAZE_DATA_SIMULATOR` in a production data-collection build.
+- This public source snapshot omits other dependencies required to compile and run the complete application.

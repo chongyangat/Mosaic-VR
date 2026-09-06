@@ -1,29 +1,40 @@
-# 使用 GitHub Desktop 发布
+# Publish and Update with GitHub Desktop
 
-此目录已经准备为独立的本地 Git 仓库，不包含原始仓库远端，也不会上传原始仓库后续提交或未提交修改。
+This directory is an independent local Git repository prepared for the public source snapshot. Its configured remote is `https://github.com/chongyangat/VBSOED-paper-source.git`.
 
-## 发布步骤
+## Update the existing GitHub repository
 
-1. 打开 GitHub Desktop，并登录要发布到的 GitHub 账号。
-2. 选择 **File → Add local repository**。
-3. 点击 **Choose...**，选择：
+1. Open GitHub Desktop and select **File → Add local repository** if the repository is not already listed.
+2. Choose `E:\VRfiles\VBSOED-paper-source-159447c`, then select **Add repository**.
+3. Confirm that the current branch is `main`.
+4. Select **Fetch origin**, then pull first if GitHub Desktop reports incoming commits. Resolve any conflict before continuing.
+5. Review the **Changes** list. For this documentation update, it should include:
+   - the English Markdown files;
+   - `.gitignore`;
+   - ten PNG files under `docs/images/workflow/`.
+6. Confirm that `source_675a9d1e3b/` and `SUBFIGURE_MAP.json` do **not** appear in the change list. That working directory contains duplicate images and a machine-specific mapping file and is intentionally ignored.
+7. Preview `README.md` or review its diff, paying particular attention to the Quest and PC image order.
+8. Enter a commit summary such as `docs: add English workflow guide and screenshots`.
+9. Select **Commit to main**, then **Push origin**.
 
-   `E:\VRfiles\VBSOED-paper-source-159447c`
+## Publish for the first time
 
-4. 点击 **Add repository**。
-5. 确认 GitHub Desktop 显示 `main` 分支，且 Changes 页面没有待提交文件。
-6. 点击顶部的 **Publish repository**。
-7. 建议仓库名称使用 `VBSOED-paper-source`，并填写论文相关描述。
-8. 需要公开时，取消勾选 **Keep this code private**；选择正确的个人账号或 Organization。
-9. 点击 **Publish Repository**。
+Use these steps only if the remote repository has not yet been created:
 
-## 发布后检查
+1. Sign in to the intended GitHub account in GitHub Desktop.
+2. Add `E:\VRfiles\VBSOED-paper-source-159447c` as a local repository.
+3. Select **Publish repository**.
+4. Use a repository name such as `VBSOED-paper-source` and add the paper-related description.
+5. Clear **Keep this code private** only when public release has been approved, and select the correct personal account or organization.
+6. Select **Publish Repository**.
 
-- GitHub 首页能正常显示 `README.md`。
-- 最新提交信息为 `chore: prepare public paper source snapshot`。
-- 仓库中不存在 `Assets/Arts`、`Assets/AssetRaw`、`Assets/Proxima`、`Assets/Mirror` 或 `Packages/LocalPackages`。
-- 仓库中不存在 `.pfx`、`.dll`、`.exe`、模型、纹理、音视频或压缩包。
-- 根据团队决定补充 LICENSE、论文标题、作者、DOI 和推荐引用格式。
+## Post-upload checks
 
-GitHub 官方说明：[添加本地仓库](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-a-repository-from-your-local-computer-to-github-desktop)；[使用 GitHub Desktop 发布现有项目](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-an-existing-project-to-github-using-github-desktop)。
+- The repository home page renders `README.md` and all ten workflow images.
+- The Quest gallery order is safety/start → shopping list → supermarket task → completion summary.
+- The PC gallery follows the requested order: participant profile → operating mode → scene list → active scene selection → recording dashboard → completion summary.
+- `source_675a9d1e3b/`, `SUBFIGURE_MAP.json`, `Assets/Arts/`, `Assets/AssetRaw/`, `Assets/Proxima/`, `Assets/Mirror/`, and `Packages/LocalPackages/` are absent from GitHub.
+- No certificates, signing keys, native binaries, archives, APKs, logs, or personal research data were uploaded.
+- Add the paper title, authors, DOI, citation metadata, and a license only after the project team has approved their exact wording.
 
+GitHub documentation: [Add a repository from your local computer](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-a-repository-from-your-local-computer-to-github-desktop) and [add an existing project with GitHub Desktop](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-an-existing-project-to-github-using-github-desktop).
